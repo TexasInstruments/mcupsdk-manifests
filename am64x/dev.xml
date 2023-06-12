@@ -18,4 +18,5 @@
    <project remote="tinyusb"  path="mcu_plus_sdk/source/usb/tinyusb/tinyusb-stack"              name="tinyusb" revision="refs/tags/0.14.0"/>
    <project remote="origin"   path="mcu_plus_sdk/source/cmsis"                                  name="mcupsdk-cmsis" revision="refs/tags/DEV.MCUSDK.09.00.00.23"/>
    <project remote="mbedtls"  path="mcu_plus_sdk/source/networking/mbedtls_library/mbedtls"     name="mbedtls" revision="refs/tags/mbedtls-2.13.1"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"               name="enet-tsn-stack"        revision="next"/>
 </manifest>
