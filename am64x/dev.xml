@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+   <remote fetch="ssh://git@bitbucket.itg.ti.com/"  name="comm"/>
    <remote fetch="https://github.com/TexasInstruments/"  name="origin"/>
    <remote fetch="https://github.com/FreeRTOS/"     name="freertos"/>
    <remote fetch="git://git.savannah.gnu.org/"      name="lwip"/>
    <remote fetch="https://github.com/hathach/"      name="tinyusb"/>
    <remote fetch="https://github.com/ARMmbed/"      name="armmbed"/>
    <remote fetch="https://github.com/Mbed-TLS/"     name="mbedtls"/>
-   <project remote="origin"   path="mcu_plus_sdk"                                               name="mcupsdk-core" revision="refs/tags/DEV.MCUSDK.09.01.00.37"/>
-   <project remote="origin"   path="mcupsdk_setup"                                              name="mcupsdk-setup" revision="refs/tags/DEV.MCUSDK.09.01.00.37"/>
+   <project remote="origin"   path="mcu_plus_sdk"                                        name="mcupsdk-core" revision="refs/tags/REL.MCUSDK.09.01.00.41"/>
+   <project remote="origin"   path="mcupsdk_setup"                                       name="mcupsdk-setup" revision="refs/tags/REL.MCUSDK.09.01.00.41"/>
    <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel" name="mcupsdk-FreeRTOS-Kernel" revision="refs/tags/MCUSDK_V10.4.3_MAIN"/>
    <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel-smp" name="mcupsdk-FreeRTOS-Kernel" revision="refs/tags/V202110.00-SMP"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX"         name="mcupsdk-FreeRTOS-Posix" revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/networking/enet/core"                   name="mcupsdk-enet-lld" revision="refs/tags/DEV.MCUSDK.09.01.00.37"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT"           name="mcupsdk-FreeRTOS-FAT" revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
-   <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-stack"             name="lwip" revision="refs/tags/STABLE-2_2_0_RELEASE"/>
-   <project remote="tinyusb"  path="mcu_plus_sdk/source/usb/tinyusb/tinyusb-stack"              name="tinyusb" revision="refs/tags/0.14.0"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/cmsis"                                  name="mcupsdk-cmsis" revision="refs/tags/DEV.MCUSDK.09.01.00.37"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX"  name="mcupsdk-FreeRTOS-Posix" revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/networking/enet/core"            name="mcupsdk-enet-lld" revision="refs/tags/REL.MCUSDK.09.01.00.41"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT"    name="mcupsdk-FreeRTOS-FAT" revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
+   <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-stack"      name="lwip" revision="refs/tags/STABLE-2_1_2_RELEASE"/>
+   <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-contrib"    name="lwip/lwip-contrib" revision="refs/tags/STABLE-2_1_0_RELEASE"/>
+   <project remote="tinyusb"  path="mcu_plus_sdk/source/usb/tinyusb/tinyusb-stack"       name="tinyusb" revision="refs/tags/0.14.0"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/cmsis"                           name="mcupsdk-cmsis" revision="refs/tags/REL.MCUSDK.09.01.00.41"/>
    <project remote="mbedtls"  path="mcu_plus_sdk/source/networking/mbedtls_library/mbedtls"     name="mbedtls" revision="refs/tags/mbedtls-2.13.1"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"               name="enet-tsn-stack" revision="refs/tags/DEV.MCUSDK.09.01.00.37"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"        name="enet-tsn-stack" revision="refs/tags/REL.MCUSDK.09.01.00.41"/>
 </manifest>
