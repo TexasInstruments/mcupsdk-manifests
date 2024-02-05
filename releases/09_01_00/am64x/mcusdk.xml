@@ -14,7 +14,7 @@
    <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX"  name="mcupsdk-FreeRTOS-Posix" revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
    <project remote="origin"   path="mcu_plus_sdk/source/networking/enet/core"            name="mcupsdk-enet-lld" revision="refs/tags/REL.MCUSDK.09.01.00.41"/>
    <project remote="origin"   path="mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT"    name="mcupsdk-FreeRTOS-FAT" revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
-   <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-stack"      name="lwip" revision="refs/tags/STABLE-2_1_2_RELEASE"/>
+   <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-stack"      name="lwip" revision="refs/tags/STABLE-2_2_0_RELEASE"/>
    <project remote="tinyusb"  path="mcu_plus_sdk/source/usb/tinyusb/tinyusb-stack"       name="tinyusb" revision="refs/tags/0.14.0"/>
    <project remote="origin"   path="mcu_plus_sdk/source/cmsis"                           name="mcupsdk-cmsis" revision="refs/tags/REL.MCUSDK.09.01.00.41"/>
    <project remote="mbedtls"  path="mcu_plus_sdk/source/networking/mbedtls_library/mbedtls"     name="mbedtls" revision="refs/tags/mbedtls-2.13.1"/>
