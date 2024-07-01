@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote fetch="https://github.com/TexasInstruments/"  name="origin"/>
-   <project remote="origin"   path="mcu_plus_sdk"                                               name="mcupsdk-core-k3"           revision="refs/tags/REL.MCUSDK.K3.10.00.00.01"/>
-   <project remote="origin"   path="mcupsdk_setup"                                              name="mcupsdk-setup"             revision="refs/tags/REL.MCUSDK.K3.10.00.00.01"/>
+   <project remote="origin"   path="mcu_plus_sdk"                                               name="mcupsdk-core-k3"           revision="refs/tags/REL.MCUSDK.K3.10.00.00.02"/>
+   <project remote="origin"   path="mcupsdk_setup"                                              name="mcupsdk-setup"             revision="refs/tags/REL.MCUSDK.K3.10.00.00.02"/>
    <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel"        name="mcupsdk-FreeRTOS-Kernel"   revision="refs/tags/MCUSDK_V10.6.1_MAIN"/>
    <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX"         name="mcupsdk-FreeRTOS-Posix"    revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
    <project remote="origin"   path="mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT"           name="mcupsdk-FreeRTOS-FAT"      revision="refs/tags/MCUSDK_V1.1.0_MAIN"/>
    <project remote="origin"   path="mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src" name="mcupsdk-rm-pm-hal" revision="refs/tags/v10.00.04"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/safety_checkers"                        name="proc-safety-checkers"      revision="refs/tags/REL.MCUSDK.K3.10.00.00.01"/>   
+   <project remote="origin"   path="mcu_plus_sdk/source/board/pmic/pmic_lld"                    name="ti-pmic-lld"               revision="refs/tags/REL.PMIC.TPS6522X.00.10.01"/>   
+   <project remote="origin"   path="mcu_plus_sdk/source/safety_checkers"                        name="proc-safety-checkers"      revision="refs/tags/REL.MCUSDK.K3.10.00.00.02"/>   
 </manifest>
