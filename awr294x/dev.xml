@@ -12,4 +12,5 @@
    <project remote="origin"   path="mcu_plus_sdk/source/networking/enet/core"            name="mcupsdk-enet-lld" revision="refs/tags/DEV.MCUSDK.10.00.00.04"/>
    <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-stack"      name="lwip" revision="refs/tags/STABLE-2_2_0_RELEASE"/>
    <project remote="origin"   path="mcu_plus_sdk/source/sysconfig"                       name="sysconfig" revision="refs/tags/REL.MCUSDK.09.01.00.41"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/security/security_common"        name="security-common" revision="refs/tags/REL.MCUSDK.09.01.00.41"/>
 </manifest>
