@@ -20,4 +20,5 @@
    <project remote="origin"   path="mcu_plus_sdk/source/cmsis"                           name="mcupsdk-cmsis" revision="refs/tags/REL.MCUSDK.09.01.00.41"/>
    <project remote="mbedtls"  path="mcu_plus_sdk/source/networking/mbedtls_library/mbedtls"     name="mbedtls" revision="refs/tags/mbedtls-2.13.1"/>
    <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"        name="enet-tsn-stack" revision="refs/tags/REL.MCUSDK.09.01.00.41"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/sysconfig"                       name="sysconfig" revision="refs/tags/REL.MCUSDK.09.01.00.41"/>
 </manifest>
