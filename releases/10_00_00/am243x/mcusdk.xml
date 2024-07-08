@@ -19,6 +19,7 @@
    <project remote="origin"   path="mcu_plus_sdk/source/cmsis"                           name="mcupsdk-cmsis" revision="refs/tags/REL.MCUSDK.10.00.00.08"/>
    <project remote="mbedtls"  path="mcu_plus_sdk/source/networking/mbedtls_library/mbedtls"     name="mbedtls" revision="refs/tags/mbedtls-2.13.1"/>
    <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"        name="enet-tsn-stack" revision="refs/tags/REL.MCUSDK.10.00.00.08"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/sysconfig"                       name="sysconfig" revision="refs/tags/REL.MCUSDK.10.00.00.08"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/security/security_common"        name="security-common" revision="refs/tags/REL.MCUSDK.10.00.00.08"/>
+   <project remote="origin"   path="mcu_plus_sdk/tools/boot/multicore-elf"               name="multicore-elf"  revision="refs/tags/REL.MCUSDK.10.00.00.08"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/sysconfig"                       name="mcupsdk-sysconfig" revision="refs/tags/REL.MCUSDK.10.00.00.08"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/security/security_common"        name="tifs-mcu-common" revision="refs/tags/REL.MCUSDK.10.00.00.08"/>
 </manifest>

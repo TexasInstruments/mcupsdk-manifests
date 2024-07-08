@@ -10,6 +10,6 @@
    <project remote="origin"   path="mcu_plus_sdk/source/networking/enet/core"            name="mcupsdk-enet-lld"           revision="mcupsdk_next"/>
    <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-stack"      name="lwip"                       revision="refs/tags/STABLE-2_2_0_RELEASE"/>
    <project remote="origin"   path="mcu_plus_sdk/tools/boot/multicore-elf"               name="multicore-elf"              revision="main"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/sysconfig"                       name="sysconfig"                  revision="next"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/security/security_common"        name="security-common"            revision="next"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/sysconfig"                       name="mcupsdk-sysconfig"                  revision="next"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/security/security_common"        name="tifs-mcu-common"            revision="next"/>
 </manifest>
