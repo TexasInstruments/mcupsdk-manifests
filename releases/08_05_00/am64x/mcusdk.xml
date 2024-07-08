@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+   <remote fetch="ssh://git@bitbucket.itg.ti.com/"  name="comm"/>
    <remote fetch="https://github.com/TexasInstruments/"  name="origin"/>
    <remote fetch="https://github.com/FreeRTOS/"     name="freertos"/>
    <remote fetch="git://git.savannah.gnu.org/"      name="lwip"/>
@@ -15,5 +16,7 @@
    <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-stack"      name="lwip" revision="refs/tags/STABLE-2_1_2_RELEASE"/>
    <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-contrib"    name="lwip/lwip-contrib" revision="refs/tags/STABLE-2_1_0_RELEASE"/>
    <project remote="tinyusb"  path="mcu_plus_sdk/source/usb/tinyusb/tinyusb-stack"       name="tinyusb" revision="refs/tags/0.10.0"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/cmsis"                           name="mcupsdk-cmsis" revision="refs/tags/REL.MCUSDK.08.05.00.25"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/cmsis"                           name="mcupsdk-cmsis" revision="refs/tags/REL.MCUSDK.08.05.00.24"/>
+   <project remote="origin"   path="mcu_plus_sdk/docs/industrial_protocol_docs"          name="processor-sdk-mcu/industrial_protocol_docs" revision="refs/tags/REL.MCUSDK.08.05.00.24"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/commercial"                      name="processor-sdk-mcu/mcupsdk_commercial_src_libs" revision="refs/tags/REL.MCUSDK.08.05.00.24"/>
 </manifest>
