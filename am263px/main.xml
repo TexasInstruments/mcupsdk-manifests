@@ -16,4 +16,5 @@
    <project remote="origin"   path="mcu_plus_sdk/tools/boot/multicore-elf"               name="multicore-elf" revision="refs/tags/DEV.MCUSDK.10.00.00.15"/>
    <project remote="origin"   path="mcu_plus_sdk/source/sysconfig"                       name="mcupsdk-sysconfig" revision="refs/tags/DEV.MCUSDK.10.00.00.15"/>
    <project remote="origin"   path="mcu_plus_sdk/source/security/security_common"        name="tifs-mcu-common" revision="refs/tags/DEV.MCUSDK.10.00.00.15"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/board/pmic/pmic_lld"             name="ti-pmic-lld"     revision="REL.PMIC.TPS65386X.00.09.00"/>
 </manifest>
