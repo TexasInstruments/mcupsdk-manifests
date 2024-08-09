@@ -1,0 +1,55 @@
+manifest:
+  projects:
+  - name: mcupsdk-core
+    path: mcu_plus_sdk
+    remote: origin
+    revision: refs/tags/REL.MCUSDK.10.00.00.37
+  - name: mcupsdk-setup
+    path: mcupsdk_setup
+    remote: origin
+    revision: refs/tags/REL.MCUSDK.10.00.00.37
+  - name: mcupsdk-FreeRTOS-Kernel
+    path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel
+    remote: origin
+    revision: refs/tags/MCUSDK_V10.4.3_MAIN
+  - name: mcupsdk-FreeRTOS-Posix
+    path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX
+    remote: origin
+    revision: refs/tags/MCUSDK_V1.0.0_MAIN
+  - name: mcupsdk-enet-lld
+    path: mcu_plus_sdk/source/networking/enet/core
+    remote: origin
+    revision: refs/tags/REL.MCUSDK.10.00.00.37
+  - name: lwip
+    path: mcu_plus_sdk/source/networking/lwip/lwip-stack
+    remote: lwip
+    revision: refs/tags/STABLE-2_2_0_RELEASE
+  - name: mbedtls
+    path: mcu_plus_sdk/source/networking/mbedtls_library/mbedtls
+    remote: mbedtls
+    revision: refs/tags/mbedtls-2.13.1
+  - name: enet-tsn-stack
+    path: mcu_plus_sdk/source/networking/tsn/tsn-stack
+    remote: origin
+    revision: refs/tags/REL.MCUSDK.10.00.00.37
+  - name: multicore-elf
+    path: mcu_plus_sdk/tools/boot/multicore-elf
+    remote: origin
+    revision: refs/tags/REL.MCUSDK.10.00.00.37
+  - name: mcupsdk-sysconfig
+    path: mcu_plus_sdk/source/sysconfig
+    remote: origin
+    revision: refs/tags/REL.MCUSDK.10.00.00.37
+  - name: tifs-mcu-common
+    path: mcu_plus_sdk/source/security/security_common
+    remote: origin
+    revision: refs/tags/REL.MCUSDK.10.00.00.37
+  remotes:
+  - name: origin
+    url-base: https://github.com/TexasInstruments
+  - name: freertos
+    url-base: https://github.com/FreeRTOS
+  - name: lwip
+    url-base: https://git.savannah.gnu.org/git
+  - name: mbedtls
+    url-base: https://github.com/Mbed-TLS

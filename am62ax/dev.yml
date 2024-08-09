@@ -1,0 +1,53 @@
+manifest:
+  projects:
+  - name: mcupsdk-core-k3
+    path: mcu_plus_sdk
+    remote: origin
+    revision: main
+  - name: mcupsdk-setup
+    path: mcupsdk_setup
+    remote: origin
+    revision: next
+  - name: mcupsdk-FreeRTOS-Kernel
+    path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel
+    remote: origin
+    revision: refs/tags/MCUSDK_V10.6.1_MAIN
+  - name: mcupsdk-FreeRTOS-Posix
+    path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX
+    remote: origin
+    revision: refs/tags/MCUSDK_V1.0.0_MAIN
+  - name: mcupsdk-FreeRTOS-FAT
+    path: mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT
+    remote: origin
+    revision: refs/tags/MCUSDK_V1.0.0_MAIN
+  - name: mcupsdk-dmautils
+    path: mcu_plus_sdk/source/drivers/dmautils
+    remote: origin
+    revision: main
+  - name: mcupsdk-rm-pm-hal
+    path: mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src
+    remote: origin
+    revision: refs/tags/v09.01.08
+  - name: mcupsdk-enet-lld
+    path: mcu_plus_sdk/source/networking/enet/core
+    remote: origin
+    revision: mcupsdk_next
+  - name: enet-tsn-stack
+    path: mcu_plus_sdk/source/networking/tsn/tsn-stack
+    remote: origin
+    revision: next
+  - name: mbedtls
+    path: mcu_plus_sdk/source/networking/mbedtls_library/mbedtls
+    remote: mbedtls
+    revision: refs/tags/mbedtls-2.13.1
+  - name: lwip
+    path: mcu_plus_sdk/source/networking/lwip/lwip-stack
+    remote: lwip
+    revision: refs/tags/STABLE-2_2_0_RELEASE
+  remotes:
+  - name: origin
+    url-base: https://github.com/TexasInstruments
+  - name: lwip
+    url-base: https://git.savannah.gnu.org/git
+  - name: mbedtls
+    url-base: https://github.com/Mbed-TLS
