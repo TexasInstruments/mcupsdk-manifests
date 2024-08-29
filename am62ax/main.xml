@@ -3,16 +3,16 @@
    <remote fetch="https://github.com/TexasInstruments/"  name="origin"/>
    <remote fetch="git://git.savannah.gnu.org/"      name="lwip"/>
    <remote fetch="https://github.com/Mbed-TLS/"     name="mbedtls"/>
-   <project remote="origin"   path="mcu_plus_sdk"                                               name="mcupsdk-core-k3" revision="refs/tags/DEV.MCUSDK.K3.10.01.00.02"/>
-   <project remote="origin"   path="mcupsdk_setup"                                              name="mcupsdk-setup" revision="refs/tags/DEV.MCUSDK.K3.10.01.00.02"/>
+   <project remote="origin"   path="mcu_plus_sdk"                                               name="mcupsdk-core-k3" revision="refs/tags/DEV.MCUSDK.K3.10.01.00.03"/>
+   <project remote="origin"   path="mcupsdk_setup"                                              name="mcupsdk-setup" revision="refs/tags/DEV.MCUSDK.K3.10.01.00.03"/>
    <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel" name="mcupsdk-FreeRTOS-Kernel" revision="refs/tags/V11.1.0"/>
    <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX"         name="mcupsdk-FreeRTOS-Posix" revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
    <project remote="origin"   path="mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT"           name="mcupsdk-FreeRTOS-FAT" revision="refs/tags/MCUSDK_V1.1.0_MAIN"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/drivers/dmautils"                       name="mcupsdk-dmautils" revision="refs/tags/DEV.MCUSDK.K3.10.01.00.02"/>   
+   <project remote="origin"   path="mcu_plus_sdk/source/drivers/dmautils"                       name="mcupsdk-dmautils" revision="refs/tags/DEV.MCUSDK.K3.10.01.00.03"/>   
    <project remote="origin"   path="mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src" name="mcupsdk-rm-pm-hal" revision="refs/tags/v10.00.08"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/networking/enet/core"                   name="mcupsdk-enet-lld" revision="refs/tags/DEV.MCUSDK.K3.10.01.00.02"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"               name="enet-tsn-stack" revision="refs/tags/DEV.MCUSDK.K3.10.01.00.02"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/networking/enet/core"                   name="mcupsdk-enet-lld" revision="refs/tags/DEV.MCUSDK.K3.10.01.00.03"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"               name="enet-tsn-stack" revision="refs/tags/DEV.MCUSDK.K3.10.01.00.03"/>
    <project remote="mbedtls"  path="mcu_plus_sdk/source/networking/mbedtls_library/mbedtls"     name="mbedtls" revision="refs/tags/mbedtls-2.13.1"/>
    <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-stack"             name="lwip" revision="refs/tags/STABLE-2_2_0_RELEASE"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/safety_checkers"                        name="proc-safety-checkers" revision="refs/tags/DEV.MCUSDK.K3.10.01.00.02"/>   
+   <project remote="origin"   path="mcu_plus_sdk/source/safety_checkers"                        name="proc-safety-checkers" revision="refs/tags/DEV.MCUSDK.K3.10.01.00.03"/>   
 </manifest>
