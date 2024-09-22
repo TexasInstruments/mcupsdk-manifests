@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote fetch="https://github.com/TexasInstruments/"  name="origin"/>
+   <remote fetch="git://git.savannah.gnu.org/"      name="lwip"/>
+   <remote fetch="https://github.com/Mbed-TLS/"     name="mbedtls"/>
    <remote fetch="https://git.trustedfirmware.org/TF-A"  name="atf"/>
    <project remote="origin"   path="mcu_plus_sdk"                                               name="mcupsdk-core-k3"           revision="k3_next"/>
    <project remote="origin"   path="mcupsdk_setup"                                              name="mcupsdk-setup"             revision="k3_main"/>
@@ -8,6 +10,10 @@
    <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX"         name="mcupsdk-FreeRTOS-Posix"    revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
    <project remote="origin"   path="mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT"           name="mcupsdk-FreeRTOS-FAT"      revision="refs/tags/MCUSDK_V1.1.0_MAIN"/>
    <project remote="origin"   path="mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src" name="mcupsdk-rm-pm-hal" revision="refs/tags/v10.00.08"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/networking/enet/core"                   name="mcupsdk-enet-lld"          revision="mcupsdk_next"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"               name="enet-tsn-stack"            revision="next"/>
+   <project remote="mbedtls"  path="mcu_plus_sdk/source/networking/mbedtls_library/mbedtls"     name="mbedtls"                   revision="refs/tags/mbedtls-2.13.1"/>
+   <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-stack"             name="lwip"                      revision="refs/tags/STABLE-2_2_0_RELEASE"/>
    <project remote="origin"   path="mcu_plus_sdk/source/safety_checkers"                        name="proc-safety-checkers"      revision="master"/>
    <project remote="atf"      path="mcu_plus_sdk/source/atf/trusted-firmware-a"                 name="trusted-firmware-a"        revision="00f1ec6b8740ccd403e641131e294aabacf2a48b"/>   
 </manifest>
