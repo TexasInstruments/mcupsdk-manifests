@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote fetch="https://github.com/TexasInstruments/"  name="origin"/>
-   <remote fetch="git://git.savannah.gnu.org/"      name="lwip"/>
+   <remote fetch="https://github.com/lwip-tcpip/" name="lwip"/>
    <remote fetch="https://github.com/Mbed-TLS/"     name="mbedtls"/>
    <remote fetch="https://git.trustedfirmware.org/TF-A"  name="atf"/>
    <project remote="origin"   path="mcu_plus_sdk"                                               name="mcupsdk-core-k3"           revision="k3_next"/>
