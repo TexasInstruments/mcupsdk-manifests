@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote fetch="https://github.com/TexasInstruments/"  name="origin"/>
+   <remote fetch="https://github.com/FreeRTOS/"     name="freertos"/>
+   <remote fetch="git://git.savannah.gnu.org/"      name="lwip"/>
+   <remote fetch="https://github.com/Mbed-TLS/"     name="mbedtls"/>
+   <project remote="origin"   path="mcu_plus_sdk"                                        name="mcupsdk-core" revision="refs/tags/REL.MCUSDK.10.00.00.37"/>
+   <project remote="origin"   path="mcupsdk_setup"                                       name="mcupsdk-setup" revision="refs/tags/REL.MCUSDK.10.00.00.37"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel" name="mcupsdk-FreeRTOS-Kernel" revision="refs/tags/MCUSDK_V10.4.3_MAIN"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT"    name="mcupsdk-FreeRTOS-FAT" revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX"  name="mcupsdk-FreeRTOS-Posix" revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/networking/enet/core"            name="mcupsdk-enet-lld" revision="refs/tags/REL.MCUSDK.10.00.00.37"/>
+   <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-stack"      name="lwip" revision="refs/tags/STABLE-2_2_0_RELEASE"/>
+   <project remote="mbedtls"  path="mcu_plus_sdk/source/networking/mbedtls_library/mbedtls"     name="mbedtls" revision="refs/tags/mbedtls-2.13.1"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/fs/littlefs/LittleFS"            name="mcupsdk-littlefs" revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"        name="enet-tsn-stack" revision="refs/tags/REL.MCUSDK.10.00.00.37"/>
+   <project remote="origin"   path="mcu_plus_sdk/tools/boot/multicore-elf"               name="multicore-elf" revision="refs/tags/REL.MCUSDK.10.00.00.37"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/sysconfig"                       name="mcupsdk-sysconfig" revision="refs/tags/REL.MCUSDK.10.00.00.37"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/security/security_common"        name="tifs-mcu-common" revision="refs/tags/REL.MCUSDK.10.00.00.37"/>
+</manifest>
