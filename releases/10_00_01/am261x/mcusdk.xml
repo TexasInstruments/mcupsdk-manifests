@@ -18,4 +18,6 @@
    <project remote="origin"   path="mcu_plus_sdk/tools/boot/multicore-elf"               name="multicore-elf" revision="refs/tags/REL.MCUSDK.10.00.00.37"/>
    <project remote="origin"   path="mcu_plus_sdk/source/sysconfig"                       name="mcupsdk-sysconfig" revision="refs/tags/REL.MCUSDK.10.00.00.37"/>
    <project remote="origin"   path="mcu_plus_sdk/source/security/security_common"        name="tifs-mcu-common" revision="refs/tags/REL.MCUSDK.10.00.00.37"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/board/pmic/pmic_lld/blackbird"   name="ti-pmic-lld"     revision="device/blackbird"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/board/pmic/pmic_lld/derby"       name="ti-pmic-lld"     revision="device/derby"/>
 </manifest>
