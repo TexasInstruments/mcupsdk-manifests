@@ -10,7 +10,7 @@
    <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX"         name="mcupsdk-FreeRTOS-Posix"    revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
    <project remote="origin"   path="mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT"           name="mcupsdk-FreeRTOS-FAT"      revision="refs/tags/MCUSDK_V1.1.0_MAIN"/>
    <project remote="origin"   path="mcu_plus_sdk/source/drivers/dmautils"                       name="mcupsdk-dmautils"          revision="master"/>   
-   <project remote="origin"   path="mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src" name="mcupsdk-rm-pm-hal" revision="refs/tags/v10.00.08"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src" name="mcupsdk-rm-pm-hal" revision="refs/tags/v10.01.01"/>
    <project remote="origin"   path="mcu_plus_sdk/source/networking/enet/core"                   name="mcupsdk-enet-lld"          revision="mcupsdk_next"/>
    <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"               name="enet-tsn-stack"            revision="next"/>
    <project remote="mbedtls"  path="mcu_plus_sdk/source/networking/mbedtls_library/mbedtls"     name="mbedtls"                   revision="refs/tags/mbedtls-2.13.1"/>
