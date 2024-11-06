@@ -3,39 +3,48 @@ manifest:
   - name: mcupsdk-core
     path: mcu_plus_sdk
     remote: origin
-    revision: refs/tags/DEV.MCUSDK.10.00.00.32
+    repo-path: mcupsdk-core
+    revision: refs/tags/DEV.MCUSDK.10.01.00.01
   - name: mcupsdk-setup
     path: mcupsdk_setup
     remote: origin
-    revision: refs/tags/DEV.MCUSDK.10.00.00.32
+    repo-path: mcupsdk-setup
+    revision: refs/tags/DEV.MCUSDK.10.01.00.01
   - name: mcupsdk-FreeRTOS-Kernel
     path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel
     remote: origin
-    revision: refs/tags/MCUSDK_V10.4.3_MAIN
+    repo-path: mcupsdk-FreeRTOS-Kernel
+    revision: ''
   - name: mcupsdk-FreeRTOS-Posix
     path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX
     remote: origin
-    revision: refs/tags/MCUSDK_V1.0.0_MAIN
+    repo-path: mcupsdk-FreeRTOS-Posix
+    revision: ''
   - name: mcupsdk-enet-lld
     path: mcu_plus_sdk/source/networking/enet/core
     remote: origin
-    revision: refs/tags/DEV.MCUSDK.10.00.00.32
+    repo-path: mcupsdk-enet-lld
+    revision: refs/tags/DEV.MCUSDK.10.01.00.01
   - name: lwip
     path: mcu_plus_sdk/source/networking/lwip/lwip-stack
     remote: lwip
-    revision: refs/tags/STABLE-2_2_0_RELEASE
+    repo-path: lwip
+    revision: ''
   - name: multicore-elf
     path: mcu_plus_sdk/tools/boot/multicore-elf
     remote: origin
-    revision: refs/tags/DEV.MCUSDK.10.00.00.32
+    repo-path: multicore-elf
+    revision: refs/tags/DEV.MCUSDK.10.01.00.01
   - name: mcupsdk-sysconfig
     path: mcu_plus_sdk/source/sysconfig
     remote: origin
-    revision: refs/tags/DEV.MCUSDK.10.00.00.32
+    repo-path: mcupsdk-sysconfig
+    revision: refs/tags/DEV.MCUSDK.10.01.00.01
   - name: tifs-mcu-common
     path: mcu_plus_sdk/source/security/security_common
     remote: origin
-    revision: refs/tags/DEV.MCUSDK.10.00.00.32
+    repo-path: tifs-mcu-common
+    revision: refs/tags/DEV.MCUSDK.10.01.00.01
   remotes:
   - name: origin
     url-base: https://github.com/TexasInstruments
