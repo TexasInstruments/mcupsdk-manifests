@@ -3,46 +3,57 @@ manifest:
   - name: mcupsdk-core
     path: mcu_plus_sdk
     remote: origin
+    repo-path: mcupsdk-core
     revision: refs/tags/REL.MCUSDK.10.00.00.37
   - name: mcupsdk-setup
     path: mcupsdk_setup
     remote: origin
+    repo-path: mcupsdk-setup
     revision: refs/tags/REL.MCUSDK.10.00.00.37
   - name: mcupsdk-FreeRTOS-Kernel
     path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel
     remote: origin
+    repo-path: mcupsdk-FreeRTOS-Kernel
     revision: refs/tags/MCUSDK_V10.4.3_MAIN
   - name: mcupsdk-FreeRTOS-Posix
     path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX
     remote: origin
+    repo-path: mcupsdk-FreeRTOS-Posix
     revision: refs/tags/MCUSDK_V1.0.0_MAIN
   - name: mcupsdk-enet-lld
     path: mcu_plus_sdk/source/networking/enet/core
     remote: origin
+    repo-path: mcupsdk-enet-lld
     revision: refs/tags/REL.MCUSDK.10.00.00.37
   - name: lwip
     path: mcu_plus_sdk/source/networking/lwip/lwip-stack
     remote: lwip
+    repo-path: lwip
     revision: refs/tags/STABLE-2_2_0_RELEASE
   - name: mbedtls
     path: mcu_plus_sdk/source/networking/mbedtls_library/mbedtls
     remote: mbedtls
+    repo-path: mbedtls
     revision: refs/tags/mbedtls-2.13.1
   - name: enet-tsn-stack
     path: mcu_plus_sdk/source/networking/tsn/tsn-stack
     remote: origin
+    repo-path: enet-tsn-stack
     revision: refs/tags/REL.MCUSDK.10.00.00.37
   - name: multicore-elf
     path: mcu_plus_sdk/tools/boot/multicore-elf
     remote: origin
+    repo-path: multicore-elf
     revision: refs/tags/REL.MCUSDK.10.00.00.37
   - name: mcupsdk-sysconfig
     path: mcu_plus_sdk/source/sysconfig
     remote: origin
+    repo-path: mcupsdk-sysconfig
     revision: refs/tags/REL.MCUSDK.10.00.00.37
   - name: tifs-mcu-common
     path: mcu_plus_sdk/source/security/security_common
     remote: origin
+    repo-path: tifs-mcu-common
     revision: refs/tags/REL.MCUSDK.10.00.00.37
   remotes:
   - name: origin

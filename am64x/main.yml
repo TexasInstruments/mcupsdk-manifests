@@ -3,63 +3,78 @@ manifest:
   - name: mcupsdk-core
     path: mcu_plus_sdk
     remote: origin
-    revision: refs/tags/DEV.MCUSDK.10.00.00.32
+    repo-path: mcupsdk-core
+    revision: refs/tags/DEV.MCUSDK.10.01.00.01
   - name: mcupsdk-setup
     path: mcupsdk_setup
     remote: origin
-    revision: refs/tags/DEV.MCUSDK.10.00.00.32
+    repo-path: mcupsdk-setup
+    revision: refs/tags/DEV.MCUSDK.10.01.00.01
   - name: mcupsdk-FreeRTOS-Kernel
     path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel
     remote: origin
-    revision: refs/tags/MCUSDK_V10.4.3_MAIN
+    repo-path: mcupsdk-FreeRTOS-Kernel
+    revision: ''
   - name: mcupsdk-FreeRTOS-Posix
     path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX
     remote: origin
-    revision: refs/tags/MCUSDK_V1.0.0_MAIN
+    repo-path: mcupsdk-FreeRTOS-Posix
+    revision: ''
   - name: mcupsdk-enet-lld
     path: mcu_plus_sdk/source/networking/enet/core
     remote: origin
-    revision: refs/tags/DEV.MCUSDK.10.00.00.32
+    repo-path: mcupsdk-enet-lld
+    revision: refs/tags/DEV.MCUSDK.10.01.00.01
   - name: mcupsdk-FreeRTOS-FAT
     path: mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT
     remote: origin
-    revision: refs/tags/MCUSDK_V1.0.0_MAIN
+    repo-path: mcupsdk-FreeRTOS-FAT
+    revision: ''
   - name: mcupsdk-littlefs
     path: mcu_plus_sdk/source/fs/littlefs/LittleFS
     remote: origin
-    revision: refs/tags/DEV.MCUSDK.10.00.00.32
+    repo-path: mcupsdk-littlefs
+    revision: refs/tags/DEV.MCUSDK.10.01.00.01
   - name: lwip
     path: mcu_plus_sdk/source/networking/lwip/lwip-stack
     remote: lwip
-    revision: refs/tags/STABLE-2_2_0_RELEASE
+    repo-path: lwip
+    revision: ''
   - name: tinyusb
     path: mcu_plus_sdk/source/usb/tinyusb/tinyusb-stack
     remote: tinyusb
-    revision: refs/tags/0.14.0
+    repo-path: tinyusb
+    revision: ''
   - name: mcupsdk-cmsis
     path: mcu_plus_sdk/source/cmsis
     remote: origin
-    revision: refs/tags/DEV.MCUSDK.10.00.00.32
+    repo-path: mcupsdk-cmsis
+    revision: refs/tags/DEV.MCUSDK.10.01.00.01
   - name: mbedtls
     path: mcu_plus_sdk/source/networking/mbedtls_library/mbedtls
     remote: mbedtls
-    revision: refs/tags/mbedtls-2.13.1
+    repo-path: mbedtls
+    revision: ''
   - name: enet-tsn-stack
     path: mcu_plus_sdk/source/networking/tsn/tsn-stack
     remote: origin
-    revision: refs/tags/DEV.MCUSDK.10.00.00.32
+    repo-path: enet-tsn-stack
+    revision: refs/tags/DEV.MCUSDK.10.01.00.01
   - name: multicore-elf
     path: mcu_plus_sdk/tools/boot/multicore-elf
     remote: origin
-    revision: refs/tags/DEV.MCUSDK.10.00.00.32
+    repo-path: multicore-elf
+    revision: refs/tags/DEV.MCUSDK.10.01.00.01
   - name: mcupsdk-sysconfig
     path: mcu_plus_sdk/source/sysconfig
     remote: origin
-    revision: refs/tags/DEV.MCUSDK.10.00.00.32
+    repo-path: mcupsdk-sysconfig
+    revision: refs/tags/DEV.MCUSDK.10.01.00.01
   - name: tifs-mcu-common
     path: mcu_plus_sdk/source/security/security_common
     remote: origin
-    revision: refs/tags/DEV.MCUSDK.10.00.00.32
+    repo-path: tifs-mcu-common
+    revision: refs/tags/DEV.MCUSDK.10.01.00.01
   remotes:
   - name: comm
     url-base: ssh://git@bitbucket.itg.ti.com
