@@ -22,4 +22,5 @@
    <project remote="origin"   path="mcu_plus_sdk/tools/boot/multicore-elf"               name="multicore-elf"                          revision="main"/>
    <project remote="origin"   path="mcu_plus_sdk/source/sysconfig"                       name="mcupsdk-sysconfig"                              revision="next"/>
    <project remote="origin"   path="mcu_plus_sdk/source/security/security_common"        name="tifs-mcu-common"                        revision="next"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/board/ethphy/enet"               name="ti-ethernet-software"                   revision="refs/tags/v2024.04"/>
 </manifest>
