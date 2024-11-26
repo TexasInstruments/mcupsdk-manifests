@@ -16,4 +16,5 @@
    <project remote="origin"   path="mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src" name="mcupsdk-rm-pm-hal" revision="refs/tags/v10.01.08"/>
    <project remote="origin"   path="mcu_plus_sdk/source/safety_checkers"                        name="proc-safety-checkers"      revision="refs/tags/REL.MCUSDK.K3.10.01.00.12"/>   
    <project remote="atf"      path="mcu_plus_sdk/source/atf/trusted-firmware-a"                 name="trusted-firmware-a"        revision="00f1ec6b8740ccd403e641131e294aabacf2a48b"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/board/ethphy/enet"                      name="ti-ethernet-software"      revision="refs/tags/v2024.04"/>
 </manifest>
