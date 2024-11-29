@@ -3,11 +3,12 @@
    <remote fetch="ssh://git@bitbucket.itg.ti.com/"  name="comm"/>
    <remote fetch="https://github.com/TexasInstruments/"  name="origin"/>
    <remote fetch="https://github.com/FreeRTOS/"     name="freertos"/>
-   <remote fetch="git://git.savannah.gnu.org/"      name="lwip"/>
+   <remote fetch="https://github.com/lwip-tcpip/"      name="lwip"/>
    <remote fetch="https://github.com/hathach/"      name="tinyusb"/>
    <remote fetch="https://github.com/ARMmbed/"      name="armmbed"/>
    <remote fetch="https://github.com/Mbed-TLS/"     name="mbedtls"/>
-   <project remote="origin"   path="mcu_plus_sdk"                                        name="mcupsdk-core"                           revision="next"/>
+   <remote fetch="https://github.com/eclipse-threadx/" name="threadx"/>
+   <project remote="origin"   path="mcu_plus_sdk"                                        name="mcupsdk-core"                           revision="am243x_threadx"/>
    <project remote="origin"   path="mcupsdk_setup"                                       name="mcupsdk-setup"                          revision="next"/>
    <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel" name="mcupsdk-FreeRTOS-Kernel"                revision="refs/tags/MCUSDK_V10.4.3_MAIN"/>
    <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX"  name="mcupsdk-FreeRTOS-Posix"                 revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
@@ -22,4 +23,6 @@
    <project remote="origin"   path="mcu_plus_sdk/tools/boot/multicore-elf"               name="multicore-elf"                          revision="main"/>
    <project remote="origin"   path="mcu_plus_sdk/source/sysconfig"                       name="mcupsdk-sysconfig"                              revision="next"/>
    <project remote="origin"   path="mcu_plus_sdk/source/security/security_common"        name="tifs-mcu-common"                        revision="next"/>
+   <project remote="threadx"  path="mcu_plus_sdk/source/kernel/threadx/threadx_src"      name="threadx"                   revision="refs/tags/v6.4.1_rel"/>
+   <project remote="threadx"  path="mcu_plus_sdk/source/fs/filex/filex_src"              name="filex"                     revision="refs/tags/v6.4.1_rel"/>
 </manifest>
