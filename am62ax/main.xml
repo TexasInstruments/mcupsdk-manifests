@@ -15,5 +15,5 @@
    <project remote="mbedtls"  path="mcu_plus_sdk/source/networking/mbedtls_library/mbedtls"     name="mbedtls" revision="refs/tags/mbedtls-2.13.1"/>
    <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-stack"             name="lwip" revision="refs/tags/STABLE-2_2_0_RELEASE"/>
    <project remote="origin"   path="mcu_plus_sdk/source/safety_checkers"                        name="proc-safety-checkers" revision="refs/tags/DEV.MCUSDK.K3.10.01.00.14"/>   
-   <project remote="origin"   path="mcu_plus_sdk/source/board/ethphy/enet"                      name="ti-ethernet-software" revision="refs/tags/DEV.MCUSDK.K3.10.01.00.14"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/board/ethphy/enet"                      name="ethernet-rtos-drivers" revision="refs/tags/v2024.04"/>
 </manifest>
