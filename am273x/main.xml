@@ -16,5 +16,5 @@
    <project remote="origin"   path="mcu_plus_sdk/tools/boot/multicore-elf"               name="multicore-elf" revision="refs/tags/DEV.MCUSDK.10.01.00.02"/>
    <project remote="origin"   path="mcu_plus_sdk/source/sysconfig"                       name="mcupsdk-sysconfig" revision="refs/tags/DEV.MCUSDK.10.01.00.02"/>
    <project remote="origin"   path="mcu_plus_sdk/source/security/security_common"        name="tifs-mcu-common" revision="refs/tags/DEV.MCUSDK.10.01.00.02"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/board/ethphy/enet"               name="ti-ethernet-software" revision="refs/tags/v2024.04"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/board/ethphy/enet"               name="ethernet-rtos-drivers" revision="refs/tags/v2024.04"/>
 </manifest>
