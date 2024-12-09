@@ -18,4 +18,5 @@
    <project remote="origin"   path="mcu_plus_sdk/source/sysconfig"                       name="mcupsdk-sysconfig" revision="refs/tags/REL.MCUSDK.10.01.00.23"/>
    <project remote="origin"   path="mcu_plus_sdk/source/security/security_common"        name="tifs-mcu-common" revision="refs/tags/REL.MCUSDK.10.01.00.23"/>
    <project remote="origin"   path="mcu_plus_sdk/source/board/pmic/pmic_lld/blackbird"   name="ti-pmic-lld" revision="device/blackbird"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/board/ethphy/enet"               name="ti-ethernet-software"      revision="refs/tags/v2024.04"/>
 </manifest>
