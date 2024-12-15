@@ -11,6 +11,7 @@
    <project remote="origin"   path="mcu_plus_sdk/source/drivers/dmautils"                       name="mcupsdk-dmautils"          revision="refs/tags/REL.MCUSDK.K3.10.01.00.31"/> 
    <project remote="origin"   path="mcu_plus_sdk/tools/boot/multicoreELFImageGen/"              name="multicore-elf"             revision="refs/tags/REL.MCUSDK.K3.10.01.00.31"/>
    <project remote="origin"   path="mcu_plus_sdk/source/networking/enet/core"                   name="mcupsdk-enet-lld"          revision="refs/tags/REL.MCUSDK.K3.10.01.00.31"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"               name="enet-tsn-stack"            revision="refs/tags/REL.MCUSDK.K3.10.01.00.31"/>
    <project remote="mbedtls"  path="mcu_plus_sdk/source/networking/mbedtls_library/mbedtls"     name="mbedtls"                   revision="refs/tags/mbedtls-2.13.1"/> 
    <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-stack"             name="lwip"                      revision="refs/tags/STABLE-2_2_0_RELEASE"/> 
    <project remote="origin"   path="mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src" name="mcupsdk-rm-pm-hal" revision="refs/tags/w2024.02-am275x"/>
