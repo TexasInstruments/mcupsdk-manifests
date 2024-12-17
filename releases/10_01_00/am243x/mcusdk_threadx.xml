@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote fetch="ssh://git@bitbucket.itg.ti.com/"  name="comm"/>
+   <remote fetch="https://github.com/TexasInstruments/"  name="origin"/>
+   <remote fetch="https://github.com/FreeRTOS/"     name="freertos"/>
+   <remote fetch="git://git.savannah.gnu.org/"      name="lwip"/>
+   <remote fetch="https://github.com/hathach/"      name="tinyusb"/>
+   <remote fetch="https://github.com/ARMmbed/"      name="armmbed"/>
+   <remote fetch="https://github.com/Mbed-TLS/"     name="mbedtls"/>
+   <remote fetch="https://github.com/eclipse-threadx/" name="threadx"/>
+   <project remote="origin"   path="mcu_plus_sdk"                                        name="mcupsdk-core"                           revision="refs/tags/REL.MCUSDK.THREADX.10.01.00.02"/>
+   <project remote="origin"   path="mcupsdk_setup"                                       name="mcupsdk-setup"                          revision="refs/tags/REL.MCUSDK.10.01.00.30"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel" name="mcupsdk-FreeRTOS-Kernel"                revision="refs/tags/MCUSDK_V11.1.0_MAIN"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX"  name="mcupsdk-FreeRTOS-Posix"                 revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/networking/enet/core"            name="mcupsdk-enet-lld"                       revision="refs/tags/REL.MCUSDK.THREADX.10.01.00.02"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT"    name="mcupsdk-FreeRTOS-FAT"                   revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/fs/littlefs/LittleFS"            name="mcupsdk-littlefs"                       revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
+   <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-stack"      name="lwip"                                   revision="refs/tags/STABLE-2_2_0_RELEASE"/>
+   <project remote="tinyusb"  path="mcu_plus_sdk/source/usb/tinyusb/tinyusb-stack"       name="tinyusb"                                revision="refs/tags/0.14.0"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/cmsis"                           name="mcupsdk-cmsis"                          revision="refs/tags/REL.MCUSDK.10.01.00.30"/>
+   <project remote="mbedtls"  path="mcu_plus_sdk/source/networking/mbedtls_library/mbedtls" name="mbedtls"                             revision="refs/tags/mbedtls-2.13.1"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"        name="enet-tsn-stack"                         revision="refs/tags/REL.MCUSDK.10.01.00.30"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/board/ethphy/enet"               name="ti-ethernet-software"                   revision="refs/tags/v2024.04"/>
+   <project remote="origin"   path="mcu_plus_sdk/tools/boot/multicore-elf"               name="multicore-elf"                          revision="refs/tags/REL.MCUSDK.10.01.00.30"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/sysconfig"                       name="mcupsdk-sysconfig"                      revision="refs/tags/REL.MCUSDK.THREADX.10.01.00.02"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/security/security_common"        name="tifs-mcu-common"                        revision="refs/tags/REL.MCUSDK.10.01.00.30"/>
+   <project remote="threadx"  path="mcu_plus_sdk/source/kernel/threadx/threadx_src"      name="threadx"                   revision="refs/tags/v6.4.1_rel"/>
+   <project remote="threadx"  path="mcu_plus_sdk/source/fs/filex/filex_src"              name="filex"                     revision="refs/tags/v6.4.1_rel"/>
+   <project remote="threadx"  path="mcu_plus_sdk/source/fs/filex/levelx_src"             name="levelx"                    revision="refs/tags/v6.4.1_rel"/>
+   <project remote="threadx"  path="mcu_plus_sdk/source/networking/netxduo/netxduo_src"  name="netxduo"                   revision="refs/tags/v6.4.1_rel"/>
+</manifest>
