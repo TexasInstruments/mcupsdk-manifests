@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote fetch="https://github.com/TexasInstruments/"  name="origin"/>
-   <remote fetch="https://github.com/FreeRTOS/"     name="freertos"/>
-   <remote fetch="git://git.savannah.gnu.org/"      name="lwip"/>
-   <remote fetch="https://github.com/hathach/"      name="tinyusb"/>
-   <remote fetch="https://github.com/Mbed-TLS/"     name="mbedtls"/>
+   <remote fetch="https://github.com/FreeRTOS/"          name="freertos"/>
+   <remote fetch="https://git.savannah.gnu.org/git/"     name="lwip"/>
+   <remote fetch="https://github.com/hathach/"           name="tinyusb"/>
+   <remote fetch="https://github.com/Mbed-TLS/"          name="mbedtls"/>
    <project remote="origin"   path="mcu_plus_sdk"                                        name="mcupsdk-core"              revision="next"/>
    <project remote="origin"   path="mcupsdk_setup"                                       name="mcupsdk-setup"             revision="next"/>
    <project remote="origin"   path="mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT"    name="mcupsdk-FreeRTOS-FAT"      revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
