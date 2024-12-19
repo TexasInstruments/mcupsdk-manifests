@@ -3,7 +3,7 @@
    <remote fetch="ssh://git@bitbucket.itg.ti.com/"  name="comm"/>
    <remote fetch="https://github.com/TexasInstruments/"  name="origin"/>
    <remote fetch="https://github.com/FreeRTOS/"     name="freertos"/>
-   <remote fetch="git://git.savannah.gnu.org/"      name="lwip"/>
+   <remote fetch="https://git.savannah.gnu.org/git/"      name="lwip"/>
    <remote fetch="https://github.com/hathach/"      name="tinyusb"/>
    <remote fetch="https://github.com/ARMmbed/"      name="armmbed"/>
    <remote fetch="https://github.com/Mbed-TLS/"     name="mbedtls"/>
