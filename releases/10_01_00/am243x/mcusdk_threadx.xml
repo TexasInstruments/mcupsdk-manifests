@@ -21,7 +21,6 @@
    <project remote="mbedtls"  path="mcu_plus_sdk/source/networking/mbedtls_library/mbedtls" name="mbedtls"                             revision="refs/tags/mbedtls-2.13.1"/>
    <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"        name="enet-tsn-stack"                         revision="refs/tags/REL.MCUSDK.10.01.00.30"/>
    <project remote="origin"   path="mcu_plus_sdk/source/board/ethphy/enet"               name="ti-ethernet-software"                   revision="refs/tags/v2024.04"/>
-   <project remote="origin"   path="mcu_plus_sdk/tools/boot/multicore-elf"               name="multicore-elf"                          revision="refs/tags/REL.MCUSDK.10.01.00.30"/>
    <project remote="origin"   path="mcu_plus_sdk/source/sysconfig"                       name="mcupsdk-sysconfig"                      revision="refs/tags/REL.MCUSDK.THREADX.10.01.00.02"/>
    <project remote="origin"   path="mcu_plus_sdk/source/security/security_common"        name="tifs-mcu-common"                        revision="refs/tags/REL.MCUSDK.10.01.00.30"/>
    <project remote="threadx"  path="mcu_plus_sdk/source/kernel/threadx/threadx_src"      name="threadx"                   revision="refs/tags/v6.4.1_rel"/>
