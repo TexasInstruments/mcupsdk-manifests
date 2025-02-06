@@ -17,4 +17,5 @@
    <project remote="origin"   path="mcu_plus_sdk/source/safety_checkers"                        name="proc-safety-checkers" revision="refs/tags/DEV.MCUSDK.K3.11.00.00.02"/>   
    <project remote="atf"      path="mcu_plus_sdk/source/atf/trusted-firmware-a"                 name="trusted-firmware-a" revision="refs/tags/DEV.MCUSDK.K3.11.00.00.02"/>   
    <project remote="origin"   path="mcu_plus_sdk/source/board/ethphy/enet"                      name="ethernet-rtos-drivers" revision="refs/tags/v2024.04"/>
+   <project remote="origin"   path="mcu_plus_sdk/examples/benchmarks/coremark_pro_benchmark/coremark-pro"    name="mcupsdk-coremark-pro" revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
 </manifest>
