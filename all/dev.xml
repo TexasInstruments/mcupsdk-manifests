@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote fetch="https://github.com/TexasInstruments/"  name="origin"/>
-   <remote fetch="https://github.com/lwip-tcpip/" name="lwip"/>
-   <remote fetch="https://github.com/Mbed-TLS/"     name="mbedtls"/>
+   <remote fetch="https://github.com/lwip-tcpip/"        name="lwip"/>
+   <remote fetch="https://github.com/Mbed-TLS/"          name="mbedtls"/>
    <remote fetch="https://git.trustedfirmware.org/TF-A"  name="atf"/>
-   <remote fetch="https://github.com/eclipse-threadx/" name="threadx"/>
+   <remote fetch="https://github.com/eclipse-threadx/"   name="threadx"/>
    <project remote="origin"   path="mcu_plus_sdk"                                               name="mcupsdk-core-k3"           revision="k3_next"/>
    <project remote="origin"   path="mcupsdk_setup"                                              name="mcupsdk-setup"             revision="k3_main"/>
    <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel"        name="mcupsdk-FreeRTOS-Kernel"   revision="refs/tags/V11.1.0"/>
    <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX"         name="mcupsdk-FreeRTOS-Posix"    revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
    <project remote="origin"   path="mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT"           name="mcupsdk-FreeRTOS-FAT"      revision="refs/tags/MCUSDK_V1.1.0_MAIN"/>
    <project remote="origin"   path="mcu_plus_sdk/source/drivers/dmautils"                       name="mcupsdk-dmautils"          revision="master"/>   
+   <project remote="origin"   path="mcu_plus_sdk/tools/boot/multicoreELFImageGen/"              name="multicore-elf"             revision="support-for-am62d"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/cmsis"                                  name="mcupsdk-cmsis"             revision="main"/>  
    <project remote="origin"   path="mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src" name="mcupsdk-rm-pm-hal" revision="refs/tags/v10.01.08"/>
    <project remote="origin"   path="mcu_plus_sdk/source/networking/enet/core"                   name="mcupsdk-enet-lld"          revision="mcupsdk_next"/>
    <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"               name="enet-tsn-stack"            revision="next"/>
