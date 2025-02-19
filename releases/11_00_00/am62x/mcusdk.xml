@@ -13,7 +13,7 @@
    <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"               name="enet-tsn-stack"            revision="refs/tags/REL.MCUSDK.K3.11.00.00.02"/>
    <project remote="mbedtls"  path="mcu_plus_sdk/source/networking/mbedtls_library/mbedtls"     name="mbedtls"                   revision="refs/tags/mbedtls-2.13.1"/>
    <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-stack"             name="lwip"                      revision="refs/tags/STABLE-2_2_0_RELEASE"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src" name="mcupsdk-rm-pm-hal" revision="refs/tags/v10.01.08"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src" name="mcupsdk-rm-pm-hal" revision="refs/tags/v11.00.02"/>
    <project remote="origin"   path="mcu_plus_sdk/source/safety_checkers"                        name="proc-safety-checkers"      revision="refs/tags/REL.MCUSDK.K3.11.00.00.02"/>   
    <project remote="atf"      path="mcu_plus_sdk/source/atf/trusted-firmware-a"                 name="trusted-firmware-a"        revision="58b25570c9ef91753b14c2103f45f4be9dddb696"/>
    <project remote="origin"   path="mcu_plus_sdk/source/board/ethphy/enet"                      name="ethernet-rtos-drivers"     revision="refs/tags/v2024.04"/>
