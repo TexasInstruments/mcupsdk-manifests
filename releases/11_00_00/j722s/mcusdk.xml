@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote fetch="ssh://git@bitbucket.itg.ti.com/"  name="origin"/>
+   <project remote="origin"   path="mcu_plus_sdk"                                               name="processor-sdk-mcu/mcu_plus_sdk" revision="refs/tags/REL.MCUSDK.11.00.00.01"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel" name="processor-sdk-mcu/freertos_kernel" revision="refs/tags/MCUSDK_V10.4.3"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel-smp" name="processor-sdk-mcu/freertos_kernel" revision="refs/tags/V202110.00-SMP"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX" name="processor-sdk-mcu/freertos_posix" revision="refs/tags/MCUSDK_V1.0.0"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT" name="processor-sdk-mcu/freertos_fat" revision="refs/tags/MCUSDK_V1.0.0"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/drivers/device_manager"                 name="sitmpusw/device_manager" revision="refs/tags/REL.MCUSDK.11.00.00.01"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src" name="sysfw/rm_pm_hal" revision="refs/tags/v11.00.06"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/drivers/dmautils"                               name="sitmpusw/dmautils" revision="refs/tags/REL.MCUSDK.11.00.00.01"/>
+   <project remote="origin"   path="mcu_plus_sdk/tools/sysfw/k3-resource-partitioning" name="PSDKLA/k3-resource-partitioning" revision="refs/tags/REL.MCUSDK.10.01.00.22"/>
+   <project remote="origin"   path="mcupsdk_setup"    name="processor-sdk-mcu/mcupsdk_setup" revision="refs/tags/REL.MCUSDK.11.00.00.01"/>
+   <project remote="origin"   path="mcupsdk_internal" name="processor-sdk-mcu/mcupsdk_internal" revision="refs/tags/REL.MCUSDK.11.00.00.01"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/safety_checkers" name="processor-sdk/safety_checkers" revision="refs/tags/REL.MCUSDK.11.00.00.01"/>
+</manifest>
