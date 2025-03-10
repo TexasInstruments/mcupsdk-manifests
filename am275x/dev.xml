@@ -3,8 +3,8 @@
    <remote fetch="https://github.com/TexasInstruments/"  name="origin"/>
    <remote fetch="https://github.com/lwip-tcpip/"      name="lwip"/>
    <remote fetch="https://github.com/Mbed-TLS/"     name="mbedtls"/>
-   <project remote="origin"   path="mcupsdk_setup"                                              name="mcupsdk-setup"             revision="spmcu_am275x_master"/>
-   <project remote="origin"   path="mcu_plus_sdk"                                               name="mcupsdk-core-k3"           revision="spmcu_am275x_master"/>
+   <project remote="origin"   path="mcupsdk_setup"                                              name="mcupsdk-setup"             revision="k3_main"/>
+   <project remote="origin"   path="mcu_plus_sdk"                                               name="mcupsdk-core-k3"           revision="k3_next"/>
    <project remote="origin"   path="mcu_plus_sdk/source/board/ethphy/enet"                      name="ethernet-rtos-drivers"     revision="refs/tags/v2024.04"/>
    <project remote="origin"   path="mcu_plus_sdk/source/cmsis"                                  name="mcupsdk-cmsis"             revision="main"/>
    <project remote="origin"   path="mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src" name="mcupsdk-rm-pm-hal" revision="refs/tags/v11.00.06"/>
