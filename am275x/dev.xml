@@ -16,5 +16,5 @@
    <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-stack"             name="lwip"                      revision="refs/tags/STABLE-2_2_0_RELEASE"/>
    <project remote="mbedtls"  path="mcu_plus_sdk/source/networking/mbedtls_library/mbedtls"     name="mbedtls"                   revision="refs/tags/mbedtls-2.13.1"/>
    <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"               name="enet-tsn-stack"            revision="next"/>
-   <project remote="origin"   path="mcu_plus_sdk/tools/boot/multicoreELFImageGen/"              name="multicore-elf"             revision="support-for-am62d"/>
+   <project remote="origin"   path="mcu_plus_sdk/tools/boot/multicoreELFImageGen/"              name="multicore-elf"             revision="refs/tags/MCUSDK_K3_V1.0.0"/>
 </manifest>
