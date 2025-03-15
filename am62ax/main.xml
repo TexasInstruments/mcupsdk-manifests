@@ -3,19 +3,19 @@
    <remote fetch="https://github.com/TexasInstruments/"  name="origin"/>
    <remote fetch="https://github.com/lwip-tcpip/"      name="lwip"/>
    <remote fetch="https://github.com/Mbed-TLS/"     name="mbedtls"/>
-   <project remote="origin"   path="mcupsdk_setup"                                              name="mcupsdk-setup" revision="refs/tags/DEV.MCUSDK.K3.11.00.00.10"/>
-   <project remote="origin"   path="mcu_plus_sdk"                                               name="mcupsdk-core-k3" revision="refs/tags/DEV.MCUSDK.K3.11.00.00.10"/>
+   <project remote="origin"   path="mcupsdk_setup"                                              name="mcupsdk-setup" revision="refs/tags/DEV.MCUSDK.K3.11.00.00.11"/>
+   <project remote="origin"   path="mcu_plus_sdk"                                               name="mcupsdk-core-k3" revision="refs/tags/DEV.MCUSDK.K3.11.00.00.11"/>
    <project remote="origin"   path="mcu_plus_sdk/source/board/ethphy/enet"                      name="ethernet-rtos-drivers" revision="refs/tags/v2024.04"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src" name="mcupsdk-rm-pm-hal" revision="refs/tags/v11.00.06"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/drivers/dmautils"                       name="mcupsdk-dmautils" revision="refs/tags/DEV.MCUSDK.K3.11.00.00.10"/>
-   <project remote="threadx"  path="mcu_plus_sdk/source/fs/filex/filex_src"                     name="filex" revision="refs/tags/DEV.MCUSDK.K3.11.00.00.10"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src" name="mcupsdk-rm-pm-hal" revision="refs/tags/v11.00.07"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/drivers/dmautils"                       name="mcupsdk-dmautils" revision="refs/tags/DEV.MCUSDK.K3.11.00.00.11"/>
+   <project remote="threadx"  path="mcu_plus_sdk/source/fs/filex/filex_src"                     name="filex" revision="refs/tags/DEV.MCUSDK.K3.11.00.00.11"/>
    <project remote="origin"   path="mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT"           name="mcupsdk-FreeRTOS-FAT" revision="refs/tags/MCUSDK_V1.1.0_MAIN"/>
    <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel" name="mcupsdk-FreeRTOS-Kernel" revision="refs/tags/V11.1.0"/>
    <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX"         name="mcupsdk-FreeRTOS-Posix" revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
-   <project remote="threadx"  path="mcu_plus_sdk/source/kernel/threadx/threadx_src"             name="threadx" revision="refs/tags/DEV.MCUSDK.K3.11.00.00.10"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/networking/enet/core"                   name="mcupsdk-enet-lld" revision="refs/tags/DEV.MCUSDK.K3.11.00.00.10"/>
+   <project remote="threadx"  path="mcu_plus_sdk/source/kernel/threadx/threadx_src"             name="threadx" revision="refs/tags/DEV.MCUSDK.K3.11.00.00.11"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/networking/enet/core"                   name="mcupsdk-enet-lld" revision="refs/tags/DEV.MCUSDK.K3.11.00.00.11"/>
    <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-stack"             name="lwip" revision="refs/tags/STABLE-2_2_0_RELEASE"/>
    <project remote="mbedtls"  path="mcu_plus_sdk/source/networking/mbedtls_library/mbedtls"     name="mbedtls" revision="refs/tags/mbedtls-2.13.1"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"               name="enet-tsn-stack" revision="refs/tags/DEV.MCUSDK.K3.11.00.00.10"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/safety_checkers"                        name="proc-safety-checkers" revision="refs/tags/DEV.MCUSDK.K3.11.00.00.10"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"               name="enet-tsn-stack" revision="refs/tags/DEV.MCUSDK.K3.11.00.00.11"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/safety_checkers"                        name="proc-safety-checkers" revision="refs/tags/DEV.MCUSDK.K3.11.00.00.11"/>
    </manifest>
