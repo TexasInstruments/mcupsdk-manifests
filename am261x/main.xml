@@ -20,6 +20,6 @@
    <project remote="origin"   path="mcu_plus_sdk/source/sysconfig"                       name="mcupsdk-sysconfig" revision="refs/tags/DEV.MCUSDK.10.00.00.09"/>
    <project remote="origin"   path="mcu_plus_sdk/source/security/security_common"        name="tifs-mcu-common" revision="refs/tags/DEV.MCUSDK.10.00.00.09"/>
    <project remote="origin"   path="mcu_plus_sdk/source/board/ethphy/enet"               name="ethernet-rtos-drivers"     revision="refs/tags/v2024.04"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/board/pmic/pmic_lld/blackbird"   name="ti-pmic-lld"               revision="device/blackbird"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/board/pmic/pmic_lld/derby"       name="ti-pmic-lld"               revision="device/derby"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/board/pmic/pmic_lld/blackbird"   name="ti-pmic-lld"               revision="refs/tags/REL.PMIC.TPS65386X.00.11.00"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/board/pmic/pmic_lld/derby"       name="ti-pmic-lld"               revision="refs/tags/REL.PMIC.TPS65036X.00.03.00"/>
 </manifest>
