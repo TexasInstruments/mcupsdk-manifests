@@ -3,7 +3,7 @@
    <remote fetch="https://github.com/TexasInstruments/"  name="origin"/>
    <remote fetch="https://github.com/lwip-tcpip/"      name="lwip"/>
    <remote fetch="https://github.com/Mbed-TLS/"     name="mbedtls"/>
-   <remote fetch="https://git.trustedfirmware.org/TF-A"  name="atf"/>
+   <remote fetch="https://github.com/TrustedFirmware-A/"  name="atf"/>
    <project remote="origin"   path="mcupsdk_setup"                                              name="mcupsdk-setup" revision="refs/tags/DEV.MCUSDK.K3.11.00.00.17"/>
    <project remote="origin"   path="mcu_plus_sdk"                                               name="mcupsdk-core-k3" revision="refs/tags/DEV.MCUSDK.K3.11.00.00.17"/>
    <project remote="origin"   path="mcu_plus_sdk/examples/benchmarks/coremark_pro_benchmark/coremark-pro"    name="mcupsdk-coremark-pro" revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
