@@ -3,8 +3,8 @@
    <remote fetch="https://github.com/TexasInstruments/"  name="origin"/>
    <remote fetch="https://github.com/lwip-tcpip/"        name="lwip"/>
    <remote fetch="https://github.com/Mbed-TLS/"          name="mbedtls"/>
-   <project remote="origin"   path="mcupsdk_setup"                                              name="mcupsdk-setup"             revision="am62lx_master"/>
-   <project remote="origin"   path="mcu_plus_sdk"                                               name="mcupsdk-core-k3"           revision="am62lx_master"/>
+   <project remote="origin"   path="mcupsdk_setup"                                              name="mcupsdk-setup"             revision="k3_main"/>
+   <project remote="origin"   path="mcu_plus_sdk"                                               name="mcupsdk-core-k3"           revision="k3_next"/>
    <project remote="origin"   path="mcu_plus_sdk/examples/benchmarks/coremark_pro_benchmark/coremark-pro"    name="mcupsdk-coremark-pro"    revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
    <project remote="origin"   path="mcu_plus_sdk/source/atf/trusted-firmware-a"                 name="arm-trusted-firmware"      revision="refs/tags/11.00.09"/>
    <project remote="origin"   path="mcu_plus_sdk/source/board/ethphy/enet"                      name="ethernet-rtos-drivers"     revision="refs/tags/v2024.04"/>
