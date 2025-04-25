@@ -84,7 +84,7 @@ manifest:
     path: mcu_plus_sdk/source/board/ethphy/enet
     remote: origin
     repo-path: ethernet-rtos-drivers
-    revision: refs/tags/v2024.04
+    revision: refs/tags/v2025.01
   - name: ti-pmic-lld
     path: mcu_plus_sdk/source/board/pmic/pmic_lld/blackbird
     remote: origin
