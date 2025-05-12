@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-   <remote fetch="ssh://git@bitbucket.itg.ti.com/"  name="origin"/>
    <remote fetch="https://github.com/TexasInstruments/"  name="github_origin"/>
-   <remote fetch="https://github.com/FreeRTOS/"     name="freertos"/>
+   <remote fetch="https://github.com/FreeRTOS/"          name="freertos"/>
    <remote fetch="https://git.savannah.gnu.org/git/"     name="lwip"/>
-   <remote fetch="https://github.com/hathach/"      name="tinyusb"/>
-   <remote fetch="https://github.com/ARMmbed/"      name="armmbed"/>
    <remote fetch="https://github.com/Mbed-TLS/"          name="mbedtls"/>
-   <project remote="origin"   path="mcu_plus_sdk"                                               name="processor-sdk-mcu/mcu_plus_sdk"              revision="jacinto_master"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel"        name="processor-sdk-mcu/freertos_kernel"           revision="refs/tags/MCUSDK_V10.4.3"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel-smp"    name="processor-sdk-mcu/freertos_kernel"           revision="refs/tags/V202110.00-SMP"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX"         name="processor-sdk-mcu/freertos_posix"            revision="refs/tags/MCUSDK_V1.0.0"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT"           name="processor-sdk-mcu/freertos_fat"              revision="refs/tags/MCUSDK_V1.0.0"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/drivers/device_manager"                 name="sitmpusw/device_manager"                     revision="jacinto_master"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src"      name="sysfw/rm_pm_hal"                revision="refs/tags/v10.01.07a"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/drivers/dmautils"                       name="sitmpusw/dmautils"                           revision="master"/>
-   <project remote="github_origin"   path="mcu_plus_sdk/source/networking/enet/core"            name="mcupsdk-enet-lld"                            revision="mcupsdk_next"/>
-   <project remote="mbedtls"  path="mcu_plus_sdk/source/networking/mbedtls_library/mbedtls"     name="mbedtls"                                     revision="refs/tags/mbedtls-2.13.1"/>
-   <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-stack"             name="lwip"                                        revision="refs/tags/STABLE-2_2_0_RELEASE"/>
-   <project remote="github_origin"   path="mcu_plus_sdk/source/board/ethphy/enet"               name="ethernet-rtos-drivers"                       revision="refs/tags/v2024.04"/>
-   <project remote="origin"   path="mcu_plus_sdk/tools/sysfw/k3-resource-partitioning"          name="PSDKLA/k3-resource-partitioning"             revision="refs/tags/REL.MCUSDK.09.02.00.04"/>
-   <project remote="origin"   path="mcupsdk_setup"                                              name="processor-sdk-mcu/mcupsdk_setup"             revision="jacinto_master"/>
-   <project remote="origin"   path="mcupsdk_internal"                                           name="processor-sdk-mcu/mcupsdk_internal"          revision="jacinto_master"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/safety_checkers"                        name="processor-sdk/safety_checkers"               revision="master"/>
+   <project remote="github_origin"   path="mcupsdk_setup"                                        name="processor-sdk-mcu/mcupsdk_setup"             revision="k3_main"/>
+   <project remote="github_origin"   path="mcu_plus_sdk"                                         name="processor-sdk-mcu/mcu_plus_sdk"              revision="k3_next"/>
+   <project remote="github_origin"   path="mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT"     name="processor-sdk-mcu/freertos_fat"              revision="refs/tags/MCUSDK_V1.1.0_MAIN"/>
+   <project remote="github_origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel"  name="processor-sdk-mcu/freertos_kernel"           revision="refs/tags/V11.1.0"/>
+   <project remote="github_origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX"   name="processor-sdk-mcu/freertos_posix"            revision="refs/tags/MCUSDK_V1.0.0"/>
+   <project remote="github_origin"   path="mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src"     name="sysfw/rm_pm_hal"                revision="refs/tags/v11.00.07"/>
+   <project remote="github_origin"   path="mcu_plus_sdk/source/drivers/dmautils"                 name="sitmpusw/dmautils"                           revision="master"/>
+   <project remote="github_origin"   path="mcu_plus_sdk/source/networking/enet/core"             name="mcupsdk-enet-lld"                            revision="mcupsdk_next"/>
+   <project remote="github_origin"   path="mcu_plus_sdk/source/board/ethphy/enet"                name="ethernet-rtos-drivers"                       revision="refs/tags/v2024.04"/>
+   <project remote="github_origin"   path="mcu_plus_sdk/tools/sysfw/k3-resource-partitioning"    name="PSDKLA/k3-resource-partitioning"             revision="refs/tags/REL.MCUSDK.09.02.00.04"/>
+   <project remote="github_origin"   path="mcupsdk_internal"                                     name="processor-sdk-mcu/mcupsdk_internal"          revision="k3_main"/>
+   <project remote="github_origin"   path="mcu_plus_sdk/source/safety_checkers"                  name="processor-sdk/safety_checkers"               revision="master"/>
+   <project remote="mbedtls"  path="mcu_plus_sdk/source/networking/mbedtls_library/mbedtls"      name="mbedtls"                                     revision="refs/tags/mbedtls-2.13.1"/>
+   <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-stack"              name="lwip"                                        revision="refs/tags/STABLE-2_2_0_RELEASE"/>
 </manifest>
