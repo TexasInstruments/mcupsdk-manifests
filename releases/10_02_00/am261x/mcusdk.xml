@@ -5,20 +5,20 @@
    <remote fetch="https://github.com/hathach/"      name="tinyusb"/>
    <remote fetch="git://git.savannah.gnu.org/"      name="lwip"/>
    <remote fetch="https://github.com/Mbed-TLS/"     name="mbedtls"/>
-   <project remote="origin"   path="mcu_plus_sdk"                                        name="mcupsdk-core" revision="refs/tags/REL.MCUSDK.10.02.00.13"/>
-   <project remote="origin"   path="mcupsdk_setup"                                       name="mcupsdk-setup" revision="refs/tags/REL.MCUSDK.10.02.00.13"/>
+   <project remote="origin"   path="mcu_plus_sdk"                                        name="mcupsdk-core" revision="refs/tags/REL.MCUSDK.10.02.00.14"/>
+   <project remote="origin"   path="mcupsdk_setup"                                       name="mcupsdk-setup" revision="refs/tags/REL.MCUSDK.10.02.00.14"/>
    <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel" name="mcupsdk-FreeRTOS-Kernel" revision="refs/tags/MCUSDK_V11.1.0_MAIN_PATCH_1"/>
    <project remote="origin"   path="mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT"    name="mcupsdk-FreeRTOS-FAT" revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
    <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX"  name="mcupsdk-FreeRTOS-Posix" revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
    <project remote="origin"   path="mcu_plus_sdk/source/fs/littlefs/LittleFS"            name="mcupsdk-littlefs" revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/networking/enet/core"            name="mcupsdk-enet-lld" revision="refs/tags/REL.MCUSDK.10.02.00.13"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/networking/enet/core"            name="mcupsdk-enet-lld" revision="refs/tags/REL.MCUSDK.10.02.00.14"/>
    <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-stack"      name="lwip" revision="refs/tags/STABLE-2_2_0_RELEASE"/>
    <project remote="tinyusb"  path="mcu_plus_sdk/source/usb/tinyusb/tinyusb-stack"       name="tinyusb" revision="refs/tags/0.14.0"/>
    <project remote="mbedtls"  path="mcu_plus_sdk/source/networking/mbedtls_library/mbedtls"     name="mbedtls" revision="refs/tags/mbedtls-2.13.1"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"        name="enet-tsn-stack" revision="refs/tags/REL.MCUSDK.10.02.00.13"/>
-   <project remote="origin"   path="mcu_plus_sdk/tools/boot/multicore-elf"               name="multicore-elf" revision="refs/tags/REL.MCUSDK.10.02.00.13"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/sysconfig"                       name="mcupsdk-sysconfig" revision="refs/tags/REL.MCUSDK.10.02.00.13"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/security/security_common"        name="tifs-mcu-common" revision="refs/tags/REL.MCUSDK.10.02.00.13"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"        name="enet-tsn-stack" revision="refs/tags/REL.MCUSDK.10.02.00.14"/>
+   <project remote="origin"   path="mcu_plus_sdk/tools/boot/multicore-elf"               name="multicore-elf" revision="refs/tags/REL.MCUSDK.10.02.00.14"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/sysconfig"                       name="mcupsdk-sysconfig" revision="refs/tags/REL.MCUSDK.10.02.00.14"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/security/security_common"        name="tifs-mcu-common" revision="refs/tags/REL.MCUSDK.10.02.00.14"/>
    <project remote="origin"   path="mcu_plus_sdk/source/board/pmic/pmic_lld/blackbird"   name="ti-pmic-lld" revision="refs/tags/REL.PMIC.TPS65386X.00.11.00"/>
    <project remote="origin"   path="mcu_plus_sdk/source/board/pmic/pmic_lld/derby"       name="ti-pmic-lld" revision="refs/tags/REL.PMIC.TPS65036X.00.03.00"/>
    <project remote="origin"   path="mcu_plus_sdk/source/board/ethphy/enet"               name="ethernet-rtos-drivers" revision="refs/tags/v2025.01"/>
