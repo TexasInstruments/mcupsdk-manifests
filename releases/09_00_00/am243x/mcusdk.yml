@@ -1,0 +1,77 @@
+manifest:
+  projects:
+  - name: mcupsdk-core
+    path: mcu_plus_sdk
+    remote: origin
+    repo-path: mcupsdk-core
+    revision: refs/tags/REL.MCUSDK.09.00.00.35
+  - name: mcupsdk-setup
+    path: mcupsdk_setup
+    remote: origin
+    repo-path: mcupsdk-setup
+    revision: refs/tags/REL.MCUSDK.09.00.00.35
+  - name: mcupsdk-FreeRTOS-Kernel
+    path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel
+    remote: origin
+    repo-path: mcupsdk-FreeRTOS-Kernel
+    revision: refs/tags/MCUSDK_V10.4.3_MAIN
+  - name: mcupsdk-FreeRTOS-Posix
+    path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX
+    remote: origin
+    repo-path: mcupsdk-FreeRTOS-Posix
+    revision: refs/tags/MCUSDK_V1.0.0_MAIN
+  - name: mcupsdk-enet-lld
+    path: mcu_plus_sdk/source/networking/enet/core
+    remote: origin
+    repo-path: mcupsdk-enet-lld
+    revision: refs/tags/REL.MCUSDK.09.00.00.35
+  - name: mcupsdk-FreeRTOS-FAT
+    path: mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT
+    remote: origin
+    repo-path: mcupsdk-FreeRTOS-FAT
+    revision: refs/tags/MCUSDK_V1.0.0_MAIN
+  - name: lwip
+    path: mcu_plus_sdk/source/networking/lwip/lwip-stack
+    remote: lwip
+    repo-path: lwip
+    revision: refs/tags/STABLE-2_1_2_RELEASE
+  - name: lwip/lwip-contrib
+    path: mcu_plus_sdk/source/networking/lwip/lwip-contrib
+    remote: lwip
+    repo-path: lwip/lwip-contrib
+    revision: refs/tags/STABLE-2_1_0_RELEASE
+  - name: tinyusb
+    path: mcu_plus_sdk/source/usb/tinyusb/tinyusb-stack
+    remote: tinyusb
+    repo-path: tinyusb
+    revision: refs/tags/0.14.0
+  - name: mcupsdk-cmsis
+    path: mcu_plus_sdk/source/cmsis
+    remote: origin
+    repo-path: mcupsdk-cmsis
+    revision: refs/tags/REL.MCUSDK.09.00.00.35
+  - name: mbedtls
+    path: mcu_plus_sdk/source/networking/mbedtls_library/mbedtls
+    remote: mbedtls
+    repo-path: mbedtls
+    revision: refs/tags/mbedtls-2.13.1
+  - name: enet-tsn-stack
+    path: mcu_plus_sdk/source/networking/tsn/tsn-stack
+    remote: origin
+    repo-path: enet-tsn-stack
+    revision: refs/tags/REL.MCUSDK.09.00.00.35
+  remotes:
+  - name: comm
+    url-base: ssh://git@bitbucket.itg.ti.com/
+  - name: origin
+    url-base: https://github.com/TexasInstruments/
+  - name: freertos
+    url-base: https://github.com/FreeRTOS/
+  - name: lwip
+    url-base: git://git.savannah.gnu.org/
+  - name: tinyusb
+    url-base: https://github.com/hathach/
+  - name: armmbed
+    url-base: https://github.com/ARMmbed/
+  - name: mbedtls
+    url-base: https://github.com/Mbed-TLS/
