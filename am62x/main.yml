@@ -1,0 +1,30 @@
+manifest:
+  projects:
+  - name: mcupsdk-core-k3
+    path: mcu_plus_sdk
+    remote: origin
+    repo-path: mcupsdk-core-k3
+    revision: refs/tags/REL.MCUSDK.09.01.00.39
+  - name: mcupsdk-FreeRTOS-Kernel
+    path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel
+    remote: origin
+    repo-path: mcupsdk-FreeRTOS-Kernel
+    revision: refs/tags/MCUSDK_V10.6.1_MAIN
+  - name: mcupsdk-FreeRTOS-Posix
+    path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX
+    remote: origin
+    repo-path: mcupsdk-FreeRTOS-Posix
+    revision: refs/tags/MCUSDK_V1.0.0_MAIN
+  - name: mcupsdk-FreeRTOS-FAT
+    path: mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT
+    remote: origin
+    repo-path: mcupsdk-FreeRTOS-FAT
+    revision: refs/tags/MCUSDK_V1.0.0_MAIN
+  - name: mcupsdk-rm-pm-hal
+    path: mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src
+    remote: origin
+    repo-path: mcupsdk-rm-pm-hal
+    revision: refs/tags/v09.01.08
+  remotes:
+  - name: origin
+    url-base: https://github.com/TexasInstruments/
