@@ -1,0 +1,106 @@
+manifest:
+  version: '0.10'
+  remotes:
+  - name: origin
+    url-base: https://github.com/TexasInstruments/
+  - name: lwip
+    url-base: https://github.com/lwip-tcpip/
+  - name: mbedtls
+    url-base: https://github.com/Mbed-TLS/
+  - name: atf
+    url-base: https://github.com/TrustedFirmware-A/
+  - name: threadx
+    url-base: https://github.com/eclipse-threadx/
+  projects:
+  - name: mcupsdk-setup
+    path: mcupsdk_setup
+    remote: origin
+    revision: k3_main
+  - name: mcupsdk-core-k3
+    path: mcu_plus_sdk
+    remote: origin
+    revision: k3_next
+  - name: mcupsdk-coremark-pro
+    path: mcu_plus_sdk/examples/benchmarks/coremark_pro_benchmark/coremark-pro
+    remote: origin
+    revision: refs/tags/MCUSDK_V1.0.0_MAIN
+  - name: trusted-firmware-a
+    path: mcu_plus_sdk/source/atf/trusted-firmware-a
+    remote: atf
+    revision: 58b25570c9ef91753b14c2103f45f4be9dddb696
+  - name: ethernet-rtos-drivers
+    path: mcu_plus_sdk/source/board/ethphy/enet
+    remote: origin
+    revision: refs/tags/v2024.04
+  - name: ti-pmic-lld
+    path: mcu_plus_sdk/source/board/pmic/pmic_lld
+    remote: origin
+    revision: refs/tags/REL.PMIC.TPS6522X.00.10.01
+  - name: mcupsdk-cmsis
+    path: mcu_plus_sdk/source/cmsis
+    remote: origin
+    revision: main
+  - name: mcupsdk-rm-pm-hal
+    path: mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src
+    remote: origin
+    revision: refs/tags/v11.00.07
+  - name: mcupsdk-dmautils
+    path: mcu_plus_sdk/source/drivers/dmautils
+    remote: origin
+    revision: master
+  - name: filex
+    path: mcu_plus_sdk/source/fs/filex/filex_src
+    remote: threadx
+    revision: refs/tags/v6.4.1_rel
+  - name: levelx
+    path: mcu_plus_sdk/source/fs/filex/levelx_src
+    remote: threadx
+    revision: refs/tags/v6.4.1_rel
+  - name: mcupsdk-FreeRTOS-FAT
+    path: mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT
+    remote: origin
+    revision: refs/tags/MCUSDK_V1.1.0_MAIN
+  - name: mcupsdk-FreeRTOS-Kernel
+    path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel
+    remote: origin
+    revision: refs/tags/V11.1.0
+  - name: mcupsdk-FreeRTOS-Posix
+    path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX
+    remote: origin
+    revision: refs/tags/MCUSDK_V1.0.0_MAIN
+  - name: threadx
+    path: mcu_plus_sdk/source/kernel/threadx/threadx_src
+    remote: threadx
+    revision: refs/tags/v6.4.1_rel
+  - name: mcupsdk-enet-lld
+    path: mcu_plus_sdk/source/networking/enet/core
+    remote: origin
+    revision: mcupsdk_next
+  - name: enet-firmware
+    path: mcu_plus_sdk/source/networking/ethfw
+    remote: origin
+    revision: master
+  - name: lwip
+    path: mcu_plus_sdk/source/networking/lwip/lwip-stack
+    remote: lwip
+    revision: refs/tags/STABLE-2_2_0_RELEASE
+  - name: mbedtls
+    path: mcu_plus_sdk/source/networking/mbedtls_library/mbedtls
+    remote: mbedtls
+    revision: refs/tags/mbedtls-2.13.1
+  - name: netxduo
+    path: mcu_plus_sdk/source/networking/netxduo/netxduo_src
+    remote: threadx
+    revision: refs/tags/v6.4.1_rel
+  - name: enet-tsn-stack
+    path: mcu_plus_sdk/source/networking/tsn/tsn-stack
+    remote: origin
+    revision: next
+  - name: proc-safety-checkers
+    path: mcu_plus_sdk/source/safety_checkers
+    remote: origin
+    revision: master
+  - name: multicore-elf
+    path: mcu_plus_sdk/tools/boot/multicoreELFImageGen/
+    remote: origin
+    revision: refs/tags/MCUSDK_K3_V1.0.0

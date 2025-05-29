@@ -1,0 +1,66 @@
+manifest:
+  version: '0.10'
+  remotes:
+  - name: origin
+    url-base: https://github.com/TexasInstruments/
+  - name: lwip
+    url-base: https://github.com/lwip-tcpip/
+  - name: mbedtls
+    url-base: https://github.com/Mbed-TLS/
+  projects:
+  - name: mcupsdk-setup
+    path: mcupsdk_setup
+    remote: origin
+    revision: refs/tags/REL.MCUSDK.K3.11.00.00.16
+  - name: mcupsdk-core-k3
+    path: mcu_plus_sdk
+    remote: origin
+    revision: refs/tags/REL.MCUSDK.K3.11.00.00.16
+  - name: ethernet-rtos-drivers
+    path: mcu_plus_sdk/source/board/ethphy/enet
+    remote: origin
+    revision: refs/tags/v2024.04
+  - name: mcupsdk-cmsis
+    path: mcu_plus_sdk/source/cmsis
+    remote: origin
+    revision: refs/tags/REL.MCUSDK.K3.11.00.00.16
+  - name: mcupsdk-rm-pm-hal
+    path: mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src
+    remote: origin
+    revision: refs/tags/v11.00.07
+  - name: mcupsdk-dmautils
+    path: mcu_plus_sdk/source/drivers/dmautils
+    remote: origin
+    revision: refs/tags/REL.MCUSDK.K3.11.00.00.16
+  - name: mcupsdk-FreeRTOS-FAT
+    path: mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT
+    remote: origin
+    revision: refs/tags/MCUSDK_V1.1.0_MAIN
+  - name: mcupsdk-FreeRTOS-Kernel
+    path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel
+    remote: origin
+    revision: refs/tags/V11.1.0
+  - name: mcupsdk-FreeRTOS-Posix
+    path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX
+    remote: origin
+    revision: refs/tags/MCUSDK_V1.0.0_MAIN
+  - name: mcupsdk-enet-lld
+    path: mcu_plus_sdk/source/networking/enet/core
+    remote: origin
+    revision: refs/tags/REL.MCUSDK.K3.11.00.00.16
+  - name: lwip
+    path: mcu_plus_sdk/source/networking/lwip/lwip-stack
+    remote: lwip
+    revision: refs/tags/STABLE-2_2_0_RELEASE
+  - name: mbedtls
+    path: mcu_plus_sdk/source/networking/mbedtls_library/mbedtls
+    remote: mbedtls
+    revision: refs/tags/mbedtls-2.13.1
+  - name: enet-tsn-stack
+    path: mcu_plus_sdk/source/networking/tsn/tsn-stack
+    remote: origin
+    revision: refs/tags/REL.MCUSDK.K3.11.00.00.16
+  - name: multicore-elf
+    path: mcu_plus_sdk/tools/boot/multicoreELFImageGen/
+    remote: origin
+    revision: refs/tags/MCUSDK_K3_V1.0.0
