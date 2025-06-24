@@ -9,7 +9,7 @@
    <remote fetch="https://github.com/Mbed-TLS/"     name="mbedtls"/>
    <remote fetch="https://github.com/eclipse-threadx/" name="threadx"/>
    <project remote="origin"   path="mcu_plus_sdk"                                        name="mcupsdk-core"                           revision="am243x_threadx"/>
-   <project remote="origin"   path="mcupsdk_setup"                                       name="mcupsdk-setup"                          revision="next"/>
+   <project remote="origin"   path="mcupsdk_setup"                                       name="mcupsdk-setup"                          revision="refs/tags/REL.MCUSDK.10.01.00.30"/>
    <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel" name="mcupsdk-FreeRTOS-Kernel"                revision="refs/tags/MCUSDK_V11.1.0_MAIN"/>
    <project remote="origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX"  name="mcupsdk-FreeRTOS-Posix"                 revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
    <project remote="origin"   path="mcu_plus_sdk/source/networking/enet/core"            name="mcupsdk-enet-lld"                       revision="am243x_threadx"/>
@@ -19,7 +19,7 @@
    <project remote="tinyusb"  path="mcu_plus_sdk/source/usb/tinyusb/tinyusb-stack"       name="tinyusb"                                revision="refs/tags/0.14.0"/>
    <project remote="origin"   path="mcu_plus_sdk/source/cmsis"                           name="mcupsdk-cmsis"                          revision="main"/>
    <project remote="mbedtls"  path="mcu_plus_sdk/source/networking/mbedtls_library/mbedtls" name="mbedtls"                             revision="refs/tags/mbedtls-2.13.1"/>
-   <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"        name="enet-tsn-stack"                         revision="next"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"        name="enet-tsn-stack"                         revision="refs/tags/REL.MCUSDK.10.01.00.30"/>
    <project remote="origin"   path="mcu_plus_sdk/source/board/ethphy/enet"               name="ti-ethernet-software"                   revision="refs/tags/v2024.04"/>
    <project remote="origin"   path="mcu_plus_sdk/tools/boot/multicore-elf"               name="multicore-elf"                          revision="main"/>
    <project remote="origin"   path="mcu_plus_sdk/source/sysconfig"                       name="mcupsdk-sysconfig"                      revision="am243_threadx"/>
