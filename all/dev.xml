@@ -26,4 +26,5 @@
    <project remote="origin"   path="mcu_plus_sdk/source/board/ethphy/enet"                      name="ethernet-rtos-drivers"               revision="refs/tags/v2025.01"/>
    <project remote="origin"   path="mcu_plus_sdk/source/board/pmic/pmic_lld/blackbird"          name="ti-pmic-lld"                         revision="refs/tags/REL.PMIC.TPS65386X.00.11.00"/>
    <project remote="origin"   path="mcu_plus_sdk/source/board/pmic/pmic_lld/derby"              name="ti-pmic-lld"                         revision="refs/tags/REL.PMIC.TPS65036X.00.03.00"/>
+   <project remote="origin"   path="mcu_plus_sdk/source/drivers/ospi/v0/lld/ospi_tuning"        name="proc-ospi-tuning"                    revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
 </manifest>
