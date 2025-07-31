@@ -37,6 +37,10 @@ manifest:
     path: mcu_plus_sdk/source/networking/enet/core
     revision: refs/tags/REL.MCUSDK.K3.11.00.00.16
     url: https://github.com/TexasInstruments/mcupsdk-enet-lld
+  - name: enet-firmware
+    path: mcu_plus_sdk/source/networking/ethfw
+    revision: refs/tags/REL.MCUSDK.K3.11.00.00.16
+    url: https://github.com/TexasInstruments/enet-firmware    
   - name: lwip
     path: mcu_plus_sdk/source/networking/lwip/lwip-stack
     revision: refs/tags/STABLE-2_2_0_RELEASE
