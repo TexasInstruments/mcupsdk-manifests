@@ -31,5 +31,5 @@ manifest:
     url: https://github.com/TexasInstruments/mcupsdk-FreeRTOS-Posix
   - name: proc-safety-checkers
     path: mcu_plus_sdk/source/safety_checkers
-    revision: refs/tags/DEV.MCUSDK.K3.11.00.00.22
+    revision: refs/tags/SITARA.RM.PM.11.01.00.00
     url: https://github.com/TexasInstruments/proc-safety-checkers
