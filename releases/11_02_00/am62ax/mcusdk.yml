@@ -1,0 +1,35 @@
+manifest:
+  version: '0.10'
+  projects:
+  - name: mcupsdk-setup
+    path: mcupsdk_setup
+    revision: refs/tags/REL.MCUSDK.K3.11.00.00.16
+    url: https://github.com/TexasInstruments/mcupsdk-setup
+  - name: mcupsdk-core-k3
+    path: mcu_plus_sdk
+    revision: refs/tags/REL.MCUSDK.K3.11.00.00.16
+    url: https://github.com/TexasInstruments/mcupsdk-core-k3
+  - name: mcupsdk-rm-pm-hal
+    path: mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src
+    revision: refs/tags/v11.00.07
+    url: https://github.com/TexasInstruments/mcupsdk-rm-pm-hal
+  - name: mcupsdk-dmautils
+    path: mcu_plus_sdk/source/drivers/dmautils
+    revision: refs/tags/REL.MCUSDK.K3.11.00.00.16
+    url: https://github.com/TexasInstruments/mcupsdk-dmautils
+  - name: mcupsdk-FreeRTOS-FAT
+    path: mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT
+    revision: refs/tags/MCUSDK_V1.1.0_MAIN
+    url: https://github.com/TexasInstruments/mcupsdk-FreeRTOS-FAT
+  - name: mcupsdk-FreeRTOS-Kernel
+    path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel
+    revision: refs/tags/V11.1.0
+    url: https://github.com/TexasInstruments/mcupsdk-FreeRTOS-Kernel
+  - name: mcupsdk-FreeRTOS-Posix
+    path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX
+    revision: refs/tags/MCUSDK_V1.0.0_MAIN
+    url: https://github.com/TexasInstruments/mcupsdk-FreeRTOS-Posix
+  - name: proc-safety-checkers
+    path: mcu_plus_sdk/source/safety_checkers
+    revision: refs/tags/REL.MCUSDK.K3.11.00.00.16
+    url: https://github.com/TexasInstruments/proc-safety-checkers
