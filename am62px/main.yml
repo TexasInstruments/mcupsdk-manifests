@@ -43,7 +43,7 @@ manifest:
     url: https://github.com/TexasInstruments/enet-firmware
   - name: lwip
     path: mcu_plus_sdk/source/networking/lwip/lwip-stack
-    revision: refs/tags/STABLE-2_2_0_RELEASE
+    revision: refs/tags/STABLE-2_2_1_RELEASE
     url: https://github.com/lwip-tcpip/lwip
   - name: mbedtls
     path: mcu_plus_sdk/source/networking/mbedtls_library/mbedtls
