@@ -11,7 +11,7 @@
    <project remote="github_origin"   path="mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX"   name="processor-sdk-mcu/freertos_posix"            revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
    <project remote="github_origin"   path="mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src"     name="sysfw/rm_pm_hal"           revision="refs/tags/v11.00.07"/>
    <project remote="github_origin"   path="mcu_plus_sdk/source/drivers/dmautils"                 name="sitmpusw/dmautils"                           revision="refs/tags/DEV.MCUSDK.K3.11.00.00.20"/>
-   <project remote="github_origin"   path="mcu_plus_sdk/source/drivers/ospi/v0/ospi_tuning"      name="proc-ospi-tuning"                            revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
+   <project remote="github_origin"   path="mcu_plus_sdk/source/drivers/ospi/v0/ospi_tuning"      name="proc-ospi-tuning"                            revision="refs/tags/MCUSDK_V2.0.0_MAIN"/>
    <project remote="github_origin"   path="mcu_plus_sdk/source/networking/enet/core"             name="mcupsdk-enet-lld"                            revision="refs/tags/DEV.MCUSDK.K3.11.00.00.20"/>
    <project remote="github_origin"   path="mcu_plus_sdk/source/board/ethphy/enet"                name="ethernet-rtos-drivers"                       revision="refs/tags/v2024.04"/>
    <project remote="github_origin"   path="mcu_plus_sdk/tools/sysfw/k3-resource-partitioning"    name="PSDKLA/k3-resource-partitioning"             revision="refs/tags/REL.MCUSDK.09.02.00.04"/>
