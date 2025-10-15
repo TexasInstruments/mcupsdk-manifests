@@ -23,7 +23,7 @@ manifest:
     url: https://github.com/TexasInstruments/ethernet-rtos-drivers
   - name: mcupsdk-rm-pm-hal
     path: mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src
-    revision: refs/tags/v11.01.02
+    revision: refs/tags/v11.02.00
     url: https://github.com/TexasInstruments/mcupsdk-rm-pm-hal
   - name: mcupsdk-FreeRTOS-FAT
     path: mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT
