@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote fetch="https://github.com/TexasInstruments/"  name="origin"/>
+   <remote fetch="https://github.com/lwip-tcpip/"        name="lwip"/>
+   <remote fetch="https://github.com/Mbed-TLS/"          name="mbedtls"/>
+   <remote fetch="https://github.com/TrustedFirmware-A/"  name="atf"/>
+   <remote fetch="https://github.com/eclipse-threadx/"   name="threadx"/>
+   <remote fetch="ssh://git@bitbucket.itg.ti.com/"       name="bitbucket"/>
+   <project remote="bitbucket"   path="audioweaver"                                                                            name="aud_c7x/audioweaver"       revision="ASDK_dev"/>
+   <project remote="origin"   path="audioweaver/ti-asdk-bsp/mcu_plus_sdk/mcupsdk_setup"                                        name="mcupsdk-setup"             revision="k3_main"/>
+   <project remote="origin"   path="audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx"                                               name="mcupsdk-core-k3"           revision="k3_next"/>
+   <project remote="origin"   path="audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/board/ethphy/enet"                      name="ethernet-rtos-drivers"     revision="refs/tags/v2025.03.5"/>
+   <project remote="origin"   path="audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/board/pmic/pmic_lld"                    name="ti-pmic-lld"               revision="refs/tags/REL.PMIC.TPS6522X.00.10.01"/>
+   <project remote="origin"   path="audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/cmsis"                                  name="mcupsdk-cmsis"             revision="main"/>  
+   <project remote="origin"   path="audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src" name="mcupsdk-rm-pm-hal" revision="refs/tags/v11.01.02"/>
+   <project remote="origin"   path="audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/dmautils"                       name="mcupsdk-dmautils"          revision="master"/>   
+   <project remote="origin"   path="audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/ospi/v0/ospi_tuning"            name="proc-ospi-tuning"          revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
+   <project remote="origin"   path="audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/FreeRTOS-FAT"           name="mcupsdk-FreeRTOS-FAT"      revision="refs/tags/MCUSDK_V1.1.0_MAIN"/>
+   <project remote="origin"   path="audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-Kernel"        name="mcupsdk-FreeRTOS-Kernel"   revision="refs/tags/V11.1.0"/>
+   <project remote="origin"   path="audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-POSIX"         name="mcupsdk-FreeRTOS-Posix"    revision="refs/tags/MCUSDK_V1.0.0_MAIN"/>
+   <project remote="origin"   path="audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/enet/core"                   name="mcupsdk-enet-lld"          revision="mcupsdk_next"/>
+   <project remote="origin"   path="audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/ethfw"                       name="enet-firmware"             revision="master"/>
+   <project remote="lwip"     path="audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack"             name="lwip"                      revision="refs/tags/STABLE-2_2_1_RELEASE"/>
+   <project remote="mbedtls"  path="audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls"     name="mbedtls"                   revision="refs/tags/mbedtls-2.13.1"/>
+   <project remote="origin"   path="audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack"               name="enet-tsn-stack"            revision="next"/>
+   <project remote="origin"   path="audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/tools/boot/multicoreELFImageGen/"              name="multicore-elf"             revision="refs/tags/MCUSDK_K3_V1.0.0"/>
+</manifest>
