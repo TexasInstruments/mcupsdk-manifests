@@ -93,3 +93,7 @@ manifest:
     path: mcu_plus_sdk/tools/boot/multicoreELFImageGen/
     url: https://github.com/TexasInstruments/multicore-elf
     revision: refs/tags/MCUSDK_K3_V1.0.0
+  - name: proc-ospi-tuning
+    path: mcu_plus_sdk/source/drivers/ospi/v0/ospi_tuning
+    url: https://github.com/TexasInstruments/proc-ospi-tuning
+    revision: refs/tags/MCUSDK_V1.0.0_MAIN
