@@ -41,3 +41,7 @@ manifest:
     path: mcu_plus_sdk/source/safety_checkers
     revision: refs/tags/SITARA.RM.PM.11.01.00.00
     url: https://github.com/TexasInstruments/proc-safety-checkers
+  - name: proc-ospi-tuning
+    path: mcu_plus_sdk/source/drivers/ospi/v0/ospi_tuning
+    revision: refs/tags/MCUSDK_V2.0.0_MAIN
+    url: https://github.com/TexasInstruments/proc-ospi-tuning
