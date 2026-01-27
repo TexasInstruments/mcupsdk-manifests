@@ -9,6 +9,10 @@ manifest:
     path: mcu_plus_sdk
     revision: k3_next
     url: https://github.com/TexasInstruments/mcupsdk-core-k3
+  - name: ethernet-rtos-drivers
+    path: mcu_plus_sdk/source/board/ethphy/enet
+    revision: refs/tags/v2025.03.5
+    url: https://github.com/TexasInstruments/ethernet-rtos-drivers
   - name: mcupsdk-rm-pm-hal
     path: mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src
     revision: refs/tags/v11.02.05
@@ -33,6 +37,26 @@ manifest:
     path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX
     revision: refs/tags/MCUSDK_V1.0.0_MAIN
     url: https://github.com/TexasInstruments/mcupsdk-FreeRTOS-Posix
+  - name: mcupsdk-enet-lld
+    path: mcu_plus_sdk/source/networking/enet/core
+    revision: mcupsdk_next
+    url: https://github.com/TexasInstruments/mcupsdk-enet-lld
+  - name: enet-firmware
+    path: mcu_plus_sdk/source/networking/ethfw
+    revision: master
+    url: https://github.com/TexasInstruments/enet-firmware    
+  - name: lwip
+    path: mcu_plus_sdk/source/networking/lwip/lwip-stack
+    revision: refs/tags/STABLE-2_2_1_RELEASE
+    url: https://github.com/lwip-tcpip/lwip
+  - name: mbedtls
+    path: mcu_plus_sdk/source/networking/mbedtls_library/mbedtls
+    revision: refs/tags/mbedtls-2.13.1
+    url: https://github.com/Mbed-TLS/mbedtls
+  - name: enet-tsn-stack
+    path: mcu_plus_sdk/source/networking/tsn/tsn-stack
+    revision: next
+    url: https://github.com/TexasInstruments/enet-tsn-stack
   - name: threadx
     path: mcu_plus_sdk/source/kernel/threadx/threadx_src
     revision: refs/tags/v6.4.1_rel
