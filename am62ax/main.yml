@@ -31,7 +31,7 @@ manifest:
     url: https://github.com/TexasInstruments/mcupsdk-FreeRTOS-Posix
   - name: proc-safety-checkers
     path: mcu_plus_sdk/source/safety_checkers
-    revision: refs/tags/SITARA.RM.PM.11.01.00.00
+    revision: refs/tags/SITARA.12.00.00.00
     url: https://github.com/TexasInstruments/proc-safety-checkers
   - name: proc-ospi-tuning
     path: mcu_plus_sdk/source/drivers/ospi/v0/ospi_tuning

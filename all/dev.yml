@@ -88,7 +88,7 @@ manifest:
   - name: proc-safety-checkers
     path: mcu_plus_sdk/source/safety_checkers
     url: https://github.com/TexasInstruments/proc-safety-checkers
-    revision: refs/tags/SITARA.RM.PM.11.02.00.00
+    revision: refs/tags/SITARA.12.00.00.00
   - name: multicore-elf
     path: mcu_plus_sdk/tools/boot/multicoreELFImageGen/
     url: https://github.com/TexasInstruments/multicore-elf
