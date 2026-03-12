@@ -32,7 +32,7 @@ manifest:
   - name: mcupsdk-rm-pm-hal
     path: mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src
     url: https://github.com/TexasInstruments/mcupsdk-rm-pm-hal
-    revision: refs/tags/v11.02.09
+    revision: refs/tags/v12.00.02
   - name: mcupsdk-dmautils
     path: mcu_plus_sdk/source/drivers/dmautils
     url: https://github.com/TexasInstruments/mcupsdk-dmautils
