@@ -1,0 +1,75 @@
+manifest:
+  version: '1.0'
+  projects:
+  - name: aud_c7x/audioweaver
+    path: audioweaver
+    url: ssh://git@bitbucket.itg.ti.com/aud_c7x/audioweaver
+    revision: ASDK_dev
+  - name: mcupsdk-setup
+    path: audioweaver/ti-asdk-bsp/mcu_plus_sdk/mcupsdk_setup
+    url: https://github.com/TexasInstruments/mcupsdk-setup
+    revision: k3_main
+  - name: mcupsdk-core-k3
+    path: audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx
+    url: https://github.com/TexasInstruments/mcupsdk-core-k3
+    revision: k3_next
+  - name: ethernet-rtos-drivers
+    path: audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/board/ethphy/enet
+    url: https://github.com/TexasInstruments/ethernet-rtos-drivers
+    revision: refs/tags/v2025.03.5
+  - name: ti-pmic-lld
+    path: audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/board/pmic/pmic_lld
+    url: https://github.com/TexasInstruments/ti-pmic-lld
+    revision: refs/tags/REL.PMIC.TPS6522X.00.10.01
+  - name: mcupsdk-cmsis
+    path: audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/cmsis
+    url: https://github.com/TexasInstruments/mcupsdk-cmsis
+    revision: main
+  - name: mcupsdk-rm-pm-hal
+    path: audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src
+    url: https://github.com/TexasInstruments/mcupsdk-rm-pm-hal
+    revision: refs/tags/v11.01.02
+  - name: mcupsdk-dmautils
+    path: audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/dmautils
+    url: https://github.com/TexasInstruments/mcupsdk-dmautils
+    revision: master
+  - name: proc-ospi-tuning
+    path: audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/drivers/ospi/v0/ospi_tuning
+    url: https://github.com/TexasInstruments/proc-ospi-tuning
+    revision: refs/tags/MCUSDK_V1.0.0_MAIN
+  - name: mcupsdk-FreeRTOS-FAT
+    path: audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/fs/freertos_fat/FreeRTOS-FAT
+    url: https://github.com/TexasInstruments/mcupsdk-FreeRTOS-FAT
+    revision: refs/tags/MCUSDK_V1.1.0_MAIN
+  - name: mcupsdk-FreeRTOS-Kernel
+    path: audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-Kernel
+    url: https://github.com/TexasInstruments/mcupsdk-FreeRTOS-Kernel
+    revision: refs/tags/V11.1.0
+  - name: mcupsdk-FreeRTOS-Posix
+    path: audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/kernel/freertos/FreeRTOS-POSIX
+    url: https://github.com/TexasInstruments/mcupsdk-FreeRTOS-Posix
+    revision: refs/tags/MCUSDK_V1.0.0_MAIN
+  - name: mcupsdk-enet-lld
+    path: audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/enet/core
+    url: https://github.com/TexasInstruments/mcupsdk-enet-lld
+    revision: mcupsdk_next
+  - name: enet-firmware
+    path: audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/ethfw
+    url: https://github.com/TexasInstruments/enet-firmware
+    revision: master
+  - name: lwip
+    path: audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/lwip/lwip-stack
+    url: https://github.com/lwip-tcpip/lwip
+    revision: refs/tags/STABLE-2_2_1_RELEASE
+  - name: mbedtls
+    path: audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/mbedtls_library/mbedtls
+    url: https://github.com/Mbed-TLS/mbedtls
+    revision: refs/tags/mbedtls-2.13.1
+  - name: enet-tsn-stack 
+    path: audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/source/networking/tsn/tsn-stack
+    url: https://github.com/TexasInstruments/enet-tsn-stack
+    revision: next
+  - name: multicore-elf
+    path: audioweaver/ti-asdk-bsp/mcu_plus_sdk/am62dx/tools/boot/multicoreELFImageGen/
+    url: https://github.com/TexasInstruments/multicore-elf
+    revision: refs/tags/MCUSDK_K3_V1.0.0

@@ -13,6 +13,10 @@ manifest:
     path: mcu_plus_sdk/source/board/ethphy/enet
     revision: refs/tags/v2025.03.5
     url: https://github.com/TexasInstruments/ethernet-rtos-drivers
+  - name: ti-pmic-lld
+    path: mcu_plus_sdk/source/board/pmic/pmic_lld
+    revision: refs/tags/REL.PMIC.TPS6522X.00.10.01
+    url: https://github.com/TexasInstruments/ti-pmic-lld
   - name: mcupsdk-cmsis
     path: mcu_plus_sdk/source/cmsis
     revision: main
