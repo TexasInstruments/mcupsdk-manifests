@@ -1,59 +1,59 @@
 manifest:
   version: '0.10'
   projects:
-  - name: processor-sdk-mcu/mcupsdk_setup
-    path: mcupsdk_setup
-    revision: k3_main
-    url: https://github.com/TexasInstruments/processor-sdk-mcu/mcupsdk_setup
-  - name: processor-sdk-mcu/mcu_plus_sdk
-    path: mcu_plus_sdk
-    revision: k3_next
-    url: https://github.com/TexasInstruments/processor-sdk-mcu/mcu_plus_sdk
-  - name: processor-sdk-mcu/freertos_fat
-    path: mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT
-    revision: refs/tags/MCUSDK_V1.1.0_MAIN
-    url: https://github.com/TexasInstruments/processor-sdk-mcu/freertos_fat
-  - name: processor-sdk-mcu/freertos_kernel
-    path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel
-    revision: refs/tags/V11.1.0
-    url: https://github.com/TexasInstruments/processor-sdk-mcu/freertos_kernel
-  - name: processor-sdk-mcu/freertos_posix
-    path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX
-    revision: refs/tags/MCUSDK_V1.0.0
-    url: https://github.com/TexasInstruments/processor-sdk-mcu/freertos_posix
-  - name: sysfw/rm_pm_hal
-    path: mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src
-    revision: refs/tags/v11.00.07
-    url: https://github.com/TexasInstruments/sysfw/rm_pm_hal
-  - name: sitmpusw/dmautils
-    path: mcu_plus_sdk/source/drivers/dmautils
-    revision: master
-    url: https://github.com/TexasInstruments/sitmpusw/dmautils
-  - name: mcupsdk-enet-lld
-    path: mcu_plus_sdk/source/networking/enet/core
-    revision: mcupsdk_next
-    url: https://github.com/TexasInstruments/mcupsdk-enet-lld
-  - name: ethernet-rtos-drivers
-    path: mcu_plus_sdk/source/board/ethphy/enet
-    revision: refs/tags/v2024.04
-    url: https://github.com/TexasInstruments/ethernet-rtos-drivers
-  - name: PSDKLA/k3-resource-partitioning
-    path: mcu_plus_sdk/tools/sysfw/k3-resource-partitioning
-    revision: refs/tags/REL.MCUSDK.09.02.00.04
-    url: https://github.com/TexasInstruments/PSDKLA/k3-resource-partitioning
-  - name: processor-sdk-mcu/mcupsdk_internal
-    path: mcupsdk_internal
-    revision: k3_main
-    url: https://github.com/TexasInstruments/processor-sdk-mcu/mcupsdk_internal
-  - name: processor-sdk/safety_checkers
-    path: mcu_plus_sdk/source/safety_checkers
-    revision: master
-    url: https://github.com/TexasInstruments/processor-sdk/safety_checkers
-  - name: mbedtls
-    path: mcu_plus_sdk/source/networking/mbedtls_library/mbedtls
-    revision: refs/tags/mbedtls-2.13.1
-    url: https://github.com/Mbed-TLS/mbedtls
-  - name: lwip
-    path: mcu_plus_sdk/source/networking/lwip/lwip-stack
-    revision: refs/tags/STABLE-2_2_0_RELEASE
-    url: https://git.savannah.gnu.org/git/lwip
+    - name: mcupsdk-setup
+      path: mcupsdk_setup
+      revision: k3_main
+      url: https://github.com/TexasInstruments/mcupsdk-setup
+    - name: mcupsdk-core-k3
+      path: mcu_plus_sdk
+      revision: k3_next
+      url: https://github.com/TexasInstruments/mcu_plus_sdk
+    - name: ethernet-rtos-drivers
+      path: mcu_plus_sdk/source/board/ethphy/enet
+      revision: refs/tags/v2024.04
+      url: https://github.com/TexasInstruments/ethernet-rtos-drivers
+    - name: mcupsdk-rm-pm-hal
+      path: mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src
+      revision: refs/tags/v11.00.07
+      url: https://github.com/TexasInstruments/mcupsdk-rm-pm-hal
+    - name: proc-ospi-tuning
+      path: mcu_plus_sdk/source/drivers/ospi/v0/ospi_tuning
+      revision: refs/tags/MCUSDK_V2.0.0_MAIN
+      url: https://github.com/TexasInstruments/proc-ospi-tuning
+    - name: mcupsdk-FreeRTOS-FAT
+      path: mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT
+      revision: refs/tags/MCUSDK_V1.1.0_MAIN
+      url: https://github.com/TexasInstruments/mcupsdk-FreeRTOS-FAT
+    - name: mcupsdk-FreeRTOS-Kernel
+      path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel
+      revision: refs/tags/V11.1.0
+      url: https://github.com/TexasInstruments/mcupsdk-FreeRTOS-Kernel
+    - name: mcupsdk-FreeRTOS-Posix
+      path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX
+      revision: refs/tags/MCUSDK_V1.0.0_MAIN
+      url: https://github.com/TexasInstruments/mcupsdk-FreeRTOS-Posix
+    - name: mcupsdk-enet-lld
+      path: mcu_plus_sdk/source/networking/enet/core
+      revision: mcupsdk_next
+      url: https://github.com/TexasInstruments/mcupsdk-enet-lld
+    - name: lwip
+      path: mcu_plus_sdk/source/networking/lwip/lwip-stack
+      revision: refs/tags/STABLE-2_2_0_RELEASE
+      url: https://git.savannah.gnu.org/git/lwip
+    - name: mbedtls
+      path: mcu_plus_sdk/source/networking/mbedtls_library/mbedtls
+      revision: refs/tags/mbedtls-2.13.1
+      url: https://github.com/Mbed-TLS/mbedtls
+    - name: enet-tsn-stack
+      path: mcu_plus_sdk/source/networking/tsn/tsn-stack
+      revision: next
+      url: https://github.com/TexasInstruments/enet-tsn-stack
+    - name: proc-safety-checkers
+      path: mcu_plus_sdk/source/safety_checkers
+      revision: master
+      url: https://github.com/TexasInstruments/proc-safety-checkers
+    - name: mcupsdk-dmautils
+      path: mcu_plus_sdk/source/drivers/dmautils
+      revision: master
+      url: https://github.com/TexasInstruments/mcupsdk-dmautils
