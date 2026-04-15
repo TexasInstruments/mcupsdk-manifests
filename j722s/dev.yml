@@ -8,7 +8,7 @@ manifest:
     - name: mcupsdk-core-k3
       path: mcu_plus_sdk
       revision: k3_next
-      url: https://github.com/TexasInstruments/mcu_plus_sdk
+      url: https://github.com/TexasInstruments/mcupsdk-core-k3
     - name: ethernet-rtos-drivers
       path: mcu_plus_sdk/source/board/ethphy/enet
       revision: refs/tags/v2024.04
