@@ -3,11 +3,11 @@ manifest:
   projects:
   - name: mcupsdk-setup
     path: mcupsdk_setup
-    revision: refs/tags/REL.MCUSDK.K3.11.02.00.27
+    revision: refs/tags/REL.MCUSDK.K3.11.02.00.23
     url: https://github.com/TexasInstruments/mcupsdk-setup
   - name: mcupsdk-core-k3
     path: mcu_plus_sdk
-    revision: refs/tags/REL.MCUSDK.K3.11.02.00.27
+    revision: refs/tags/REL.MCUSDK.K3.11.02.00.23
     url: https://github.com/TexasInstruments/mcupsdk-core-k3
   - name: mcupsdk-coremark-pro
     path: mcu_plus_sdk/examples/benchmarks/coremark_pro_benchmark/coremark-pro
@@ -35,7 +35,7 @@ manifest:
     url: https://github.com/TexasInstruments/mcupsdk-FreeRTOS-Posix
   - name: mcupsdk-enet-lld
     path: mcu_plus_sdk/source/networking/enet/core
-    revision: refs/tags/REL.MCUSDK.K3.11.02.00.27
+    revision: refs/tags/REL.MCUSDK.K3.11.02.00.23
     url: https://github.com/TexasInstruments/mcupsdk-enet-lld
   - name: lwip
     path: mcu_plus_sdk/source/networking/lwip/lwip-stack
@@ -47,7 +47,7 @@ manifest:
     url: https://github.com/Mbed-TLS/mbedtls
   - name: enet-tsn-stack
     path: mcu_plus_sdk/source/networking/tsn/tsn-stack
-    revision: refs/tags/REL.MCUSDK.K3.11.02.00.27
+    revision: refs/tags/REL.MCUSDK.K3.11.02.00.23
     url: https://github.com/TexasInstruments/enet-tsn-stack
   - name: proc-ospi-tuning
     path: mcu_plus_sdk/source/drivers/ospi/v0/ospi_tuning
