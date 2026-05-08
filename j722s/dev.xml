@@ -3,6 +3,7 @@
    <remote fetch="https://github.com/TexasInstruments/"  name="origin"/>
    <remote fetch="https://git.savannah.gnu.org/git/"     name="lwip"/>
    <remote fetch="https://github.com/Mbed-TLS/"          name="mbedtls"/>
+   <remote fetch="ssh://git@bitbucket.itg.ti.com/"       name="origin_bitbucket"/>
    <project remote="origin"   path="mcupsdk_setup"                                              name="mcupsdk-setup"             revision="k3_main"/>
    <project remote="origin"   path="mcu_plus_sdk"                                               name="mcupsdk-core-k3"           revision="k3_next"/>
    <project remote="origin"   path="mcu_plus_sdk/source/board/ethphy/enet"                      name="ethernet-rtos-drivers"     revision="refs/tags/v2024.04"/>
@@ -17,4 +18,5 @@
    <project remote="origin"   path="mcu_plus_sdk/source/networking/tsn/tsn-stack"               name="enet-tsn-stack"            revision="next"/>
    <project remote="origin"   path="mcu_plus_sdk/source/safety_checkers"                        name="proc-safety-checkers"      revision="master"/>
    <project remote="origin"   path="mcu_plus_sdk/source/drivers/dmautils"                       name="mcupsdk-dmautils"          revision="master"/>
+   <project remote="origin_bitbucket" path="mcu_plus_sdk/source/pdm_utils"                      name="pdm/pdm_utils"             revision="master"/>
 </manifest>

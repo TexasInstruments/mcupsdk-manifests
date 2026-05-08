@@ -49,3 +49,7 @@ manifest:
       url: https://github.com/Mbed-TLS/mbedtls
 \lwiprefs/tags/STABLE-2_2_1_RELEASE
       url: https://git.savannah.gnu.org/git/lwip
+    - name: pdm_utils
+      path: mcu_plus_sdk/source/pdm_utils
+      revision: master
+      url: ssh://git@bitbucket.itg.ti.com/pdm/pdm_utils

@@ -4,6 +4,7 @@
    <remote fetch="https://github.com/FreeRTOS/"          name="freertos"/>
    <remote fetch="https://git.savannah.gnu.org/git/"     name="lwip"/>
    <remote fetch="https://github.com/Mbed-TLS/"          name="mbedtls"/>
+   <remote fetch="ssh://git@bitbucket.itg.ti.com/"       name="origin_bitbucket"/>
    <project remote="github_origin"   path="mcupsdk_setup"                                        name="processor-sdk-mcu/mcupsdk_setup"             revision="refs/tags/DEV.MCUSDK.K3.11.00.00.20"/>
    <project remote="github_origin"   path="mcu_plus_sdk"                                         name="processor-sdk-mcu/mcu_plus_sdk"              revision="refs/tags/DEV.MCUSDK.K3.11.00.00.20"/>
    <project remote="github_origin"   path="mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT"     name="processor-sdk-mcu/freertos_fat"              revision="refs/tags/MCUSDK_V1.1.0_MAIN"/>
@@ -18,4 +19,5 @@
    <project remote="github_origin"   path="mcu_plus_sdk/source/safety_checkers"                  name="processor-sdk/safety_checkers"               revision="refs/tags/DEV.MCUSDK.K3.11.00.00.20"/>
    <project remote="mbedtls"  path="mcu_plus_sdk/source/networking/mbedtls_library/mbedtls"      name="mbedtls"                                     revision="refs/tags/mbedtls-2.13.1"/>
    <project remote="lwip"     path="mcu_plus_sdk/source/networking/lwip/lwip-stack"              name="lwip"                                        revision="refs/tags/STABLE-2_2_0_RELEASE"/>
+   <project remote="origin_bitbucket" path="mcu_plus_sdk/source/pdm_utils"                       name="pdm/pdm_utils"                               revision="master"/>
 </manifest>

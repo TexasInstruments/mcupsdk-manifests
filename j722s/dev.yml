@@ -57,3 +57,7 @@ manifest:
       path: mcu_plus_sdk/source/drivers/dmautils
       revision: master
       url: https://github.com/TexasInstruments/mcupsdk-dmautils
+    - name: pdm_utils
+      path: mcu_plus_sdk/source/pdm_utils
+      revision: master
+      url: ssh://git@bitbucket.itg.ti.com/pdm/pdm_utils
