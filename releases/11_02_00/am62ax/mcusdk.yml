@@ -3,11 +3,11 @@ manifest:
   projects:
   - name: mcupsdk-setup
     path: mcupsdk_setup
-    revision: refs/tags/REL.MCUSDK.K3.11.02.00.32
+    revision: refs/tags/REL.MCUSDK.K3.11.02.00.33
     url: https://github.com/TexasInstruments/mcupsdk-setup
   - name: mcupsdk-core-k3
     path: mcu_plus_sdk
-    revision: refs/tags/REL.MCUSDK.K3.11.02.00.32
+    revision: refs/tags/REL.MCUSDK.K3.11.02.00.33
     url: https://github.com/TexasInstruments/mcupsdk-core-k3
   - name: ethernet-rtos-drivers
     path: mcu_plus_sdk/source/board/ethphy/enet
@@ -19,7 +19,7 @@ manifest:
     url: https://github.com/TexasInstruments/mcupsdk-rm-pm-hal
   - name: mcupsdk-dmautils
     path: mcu_plus_sdk/source/drivers/dmautils
-    revision: refs/tags/REL.MCUSDK.K3.11.02.00.32
+    revision: refs/tags/REL.MCUSDK.K3.11.02.00.33
     url: https://github.com/TexasInstruments/mcupsdk-dmautils
   - name: mcupsdk-FreeRTOS-FAT
     path: mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT
@@ -35,11 +35,11 @@ manifest:
     url: https://github.com/TexasInstruments/mcupsdk-FreeRTOS-Posix
   - name: mcupsdk-enet-lld
     path: mcu_plus_sdk/source/networking/enet/core
-    revision: refs/tags/REL.MCUSDK.K3.11.02.00.32
+    revision: refs/tags/REL.MCUSDK.K3.11.02.00.33
     url: https://github.com/TexasInstruments/mcupsdk-enet-lld
   - name: enet-firmware
     path: mcu_plus_sdk/source/networking/ethfw
-    revision: refs/tags/REL.MCUSDK.K3.11.02.00.32
+    revision: refs/tags/REL.MCUSDK.K3.11.02.00.33
     url: https://github.com/TexasInstruments/enet-firmware    
   - name: lwip
     path: mcu_plus_sdk/source/networking/lwip/lwip-stack
@@ -51,7 +51,7 @@ manifest:
     url: https://github.com/Mbed-TLS/mbedtls
   - name: enet-tsn-stack
     path: mcu_plus_sdk/source/networking/tsn/tsn-stack
-    revision: refs/tags/REL.MCUSDK.K3.11.02.00.32
+    revision: refs/tags/REL.MCUSDK.K3.11.02.00.33
     url: https://github.com/TexasInstruments/enet-tsn-stack
   - name: proc-safety-checkers
     path: mcu_plus_sdk/source/safety_checkers
