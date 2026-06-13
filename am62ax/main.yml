@@ -3,69 +3,51 @@ manifest:
   projects:
   - name: mcupsdk-setup
     path: mcupsdk_setup
-    revision: refs/tags/DEV.MCUSDK.K3.12.00.00.08
+    revision: refs/tags/DEV.MCUSDK.K3.12.00.00.10
     url: https://github.com/TexasInstruments/mcupsdk-setup
   - name: mcupsdk-core-k3
     path: mcu_plus_sdk
-    revision: refs/tags/DEV.MCUSDK.K3.12.00.00.08
+    revision: refs/tags/DEV.MCUSDK.K3.12.00.00.10
     url: https://github.com/TexasInstruments/mcupsdk-core-k3
-  - name: ethernet-rtos-drivers
-    path: mcu_plus_sdk/source/board/ethphy/enet
-    revision: refs/tags/v2025.03.5
+\ethernet-rtos-driversrefs/tags/v2025.03.5
     url: https://github.com/TexasInstruments/ethernet-rtos-drivers
-  - name: mcupsdk-rm-pm-hal
-    path: mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src
-    revision: refs/tags/v12.00.02
+\mcupsdk-rm-pm-halrefs/tags/v12.00.02
     url: https://github.com/TexasInstruments/mcupsdk-rm-pm-hal
-  - name: proc-ospi-tuning
-    path: mcu_plus_sdk/source/drivers/ospi/v0/ospi_tuning
-    revision: refs/tags/MCUSDK_V1.0.0_MAIN
+\proc-ospi-tuningrefs/tags/MCUSDK_V1.0.0_MAIN
     url: https://github.com/TexasInstruments/proc-ospi-tuning
   - name: mcupsdk-dmautils
     path: mcu_plus_sdk/source/drivers/dmautils
-    revision: refs/tags/DEV.MCUSDK.K3.12.00.00.08
+    revision: refs/tags/DEV.MCUSDK.K3.12.00.00.10
     url: https://github.com/TexasInstruments/mcupsdk-dmautils
   - name: filex
     path: mcu_plus_sdk/source/fs/filex/filex_src
-    revision: refs/tags/DEV.MCUSDK.K3.12.00.00.08
+    revision: refs/tags/DEV.MCUSDK.K3.12.00.00.10
     url: https://github.com/eclipse-threadx/filex
-  - name: mcupsdk-FreeRTOS-FAT
-    path: mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT
-    revision: refs/tags/MCUSDK_V1.1.0_MAIN
+\mcupsdk-FreeRTOS-FATrefs/tags/MCUSDK_V1.1.0_MAIN
     url: https://github.com/TexasInstruments/mcupsdk-FreeRTOS-FAT
-  - name: mcupsdk-FreeRTOS-Kernel
-    path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel
-    revision: refs/tags/V11.1.0
+\mcupsdk-FreeRTOS-Kernelrefs/tags/V11.1.0
     url: https://github.com/TexasInstruments/mcupsdk-FreeRTOS-Kernel
-  - name: mcupsdk-FreeRTOS-Posix
-    path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX
-    revision: refs/tags/MCUSDK_V1.0.0_MAIN
+\mcupsdk-FreeRTOS-Posixrefs/tags/MCUSDK_V1.0.0_MAIN
     url: https://github.com/TexasInstruments/mcupsdk-FreeRTOS-Posix
   - name: threadx
     path: mcu_plus_sdk/source/kernel/threadx/threadx_src
-    revision: refs/tags/DEV.MCUSDK.K3.12.00.00.08
+    revision: refs/tags/DEV.MCUSDK.K3.12.00.00.10
     url: https://github.com/eclipse-threadx/threadx
   - name: mcupsdk-enet-lld
     path: mcu_plus_sdk/source/networking/enet/core
-    revision: refs/tags/DEV.MCUSDK.K3.12.00.00.08
+    revision: refs/tags/DEV.MCUSDK.K3.12.00.00.10
     url: https://github.com/TexasInstruments/mcupsdk-enet-lld
   - name: enet-firmware
     path: mcu_plus_sdk/source/networking/ethfw
-    revision: refs/tags/DEV.MCUSDK.K3.12.00.00.08
+    revision: refs/tags/DEV.MCUSDK.K3.12.00.00.10
     url: https://github.com/TexasInstruments/enet-firmware
-  - name: lwip
-    path: mcu_plus_sdk/source/networking/lwip/lwip-stack
-    revision: refs/tags/STABLE-2_2_1_RELEASE
+\lwiprefs/tags/STABLE-2_2_1_RELEASE
     url: https://github.com/lwip-tcpip/lwip
-  - name: mbedtls
-    path: mcu_plus_sdk/source/networking/mbedtls_library/mbedtls
-    revision: refs/tags/mbedtls-2.13.1
+\mbedtlsrefs/tags/mbedtls-2.13.1
     url: https://github.com/Mbed-TLS/mbedtls
   - name: enet-tsn-stack
     path: mcu_plus_sdk/source/networking/tsn/tsn-stack
-    revision: refs/tags/DEV.MCUSDK.K3.12.00.00.08
+    revision: refs/tags/DEV.MCUSDK.K3.12.00.00.10
     url: https://github.com/TexasInstruments/enet-tsn-stack
-  - name: proc-safety-checkers
-    path: mcu_plus_sdk/source/safety_checkers
-    revision: refs/tags/SITARA.12.00.00.02
+\proc-safety-checkersrefs/tags/SITARA.12.00.00.02
     url: https://github.com/TexasInstruments/proc-safety-checkers
