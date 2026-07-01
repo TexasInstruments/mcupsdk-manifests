@@ -67,25 +67,25 @@ manifest:
     url: https://github.com/TexasInstruments/proc-ospi-tuning
   - name: dsplib
     path: mcu_plus_sdk/source/dsplib
-    revision: refs/tags/DEV.DSPLIB.12.01.00.00
+    revision: refs/tags/REL.DSPLIB.12.01.00.02
     url: https://github.com/TexasInstruments/c7x_dsplib
   - name: audiolib
     path: mcu_plus_sdk/source/audiolib
-    revision: refs/tags/DEV.AUDIOLIB.12.01.00.00
+    revision: refs/tags/REL.AUDIOLIB.12.01.00.02
     url: https://github.com/TexasInstruments/c7x_audiolib
   - name: fftlib
     path: mcu_plus_sdk/source/fftlib
-    revision: refs/tags/DEV.FFTLIB.12.01.00.00
+    revision: refs/tags/REL.FFTLIB.12.01.00.02
     url: https://github.com/TexasInstruments/c7x_fftlib
   - name: mathlib
     path: mcu_plus_sdk/source/mathlib
-    revision: refs/tags/DEV.MATHLIB.12.01.00.00
+    revision: refs/tags/REL.MATHLIB.12.01.00.02
     url: https://github.com/TexasInstruments/c7x_mathlib
   - name: vxlib
     path: mcu_plus_sdk/source/vxlib
-    revision: refs/tags/DEV.VXLIB.12.01.00.00
+    revision: refs/tags/REL.VXLIB.12.01.00.02
     url: https://github.com/TexasInstruments/c7x_vxlib
   - name: tisp
     path: mcu_plus_sdk/source/tisp
-    revision: refs/tags/DEV.TISP.12.01.00.00
+    revision: refs/tags/DEV.TISP.12.01.00.03
     url: https://github.com/TexasInstruments/c7x_tisp  

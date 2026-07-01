@@ -100,24 +100,24 @@ manifest:
   - name: dsplib
     path: mcu_plus_sdk/source/dsplib
     url: https://github.com/TexasInstruments/c7x_dsplib
-    revision: refs/tags/DEV.DSPLIB.12.01.00.00
+    revision: refs/tags/REL.DSPLIB.12.01.00.02
   - name: audiolib
     path: mcu_plus_sdk/source/audiolib
     url: https://github.com/TexasInstruments/c7x_audiolib
-    revision: refs/tags/DEV.AUDIOLIB.12.01.00.00
+    revision: refs/tags/REL.AUDIOLIB.12.01.00.02
   - name: fftlib
     path: mcu_plus_sdk/source/fftlib
     url: https://github.com/TexasInstruments/c7x_fftlib
-    revision: refs/tags/DEV.FFTLIB.12.01.00.00
+    revision: refs/tags/REL.FFTLIB.12.01.00.02
   - name: mathlib
     path: mcu_plus_sdk/source/mathlib
     url: https://github.com/TexasInstruments/c7x_mathlib
-    revision: refs/tags/DEV.MATHLIB.12.01.00.00
+    revision: refs/tags/REL.MATHLIB.12.01.00.02
   - name: vxlib
     path: mcu_plus_sdk/source/vxlib
     url: https://github.com/TexasInstruments/c7x_vxlib
-    revision: refs/tags/DEV.VXLIB.12.01.00.00
+    revision: refs/tags/REL.VXLIB.12.01.00.02
   - name: tisp
     path: mcu_plus_sdk/source/tisp
     url: https://github.com/TexasInstruments/c7x_tisp
-    revision: refs/tags/DEV.TISP.12.01.00.00               
+    revision: refs/tags/DEV.TISP.12.01.00.03
