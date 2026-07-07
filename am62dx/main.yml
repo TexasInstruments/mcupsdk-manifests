@@ -3,11 +3,11 @@ manifest:
   projects:
   - name: mcupsdk-setup
     path: mcupsdk_setup
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.03
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
     url: https://github.com/TexasInstruments/mcupsdk-setup  
   - name: mcupsdk-core-k3
     path: mcu_plus_sdk
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.03
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
     url: https://github.com/TexasInstruments/mcupsdk-core-k3
 \ethernet-rtos-driversrefs/tags/v2025.03.5
     url: https://github.com/TexasInstruments/ethernet-rtos-drivers
@@ -17,7 +17,7 @@ manifest:
     url: https://github.com/TexasInstruments/mcupsdk-rm-pm-hal
   - name: mcupsdk-dmautils
     path: mcu_plus_sdk/source/drivers/dmautils
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.03
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
     url: https://github.com/TexasInstruments/mcupsdk-dmautils
 \proc-ospi-tuningrefs/tags/MCUSDK_V1.0.0_MAIN
     url: https://github.com/TexasInstruments/proc-ospi-tuning
@@ -29,11 +29,11 @@ manifest:
     url: https://github.com/TexasInstruments/mcupsdk-FreeRTOS-Posix
   - name: mcupsdk-enet-lld
     path: mcu_plus_sdk/source/networking/enet/core
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.03
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
     url: https://github.com/TexasInstruments/mcupsdk-enet-lld
   - name: enet-firmware
     path: mcu_plus_sdk/source/networking/ethfw
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.03
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
     url: https://github.com/TexasInstruments/enet-firmware    
 \lwiprefs/tags/STABLE-2_2_1_RELEASE
     url: https://github.com/lwip-tcpip/lwip
@@ -41,29 +41,29 @@ manifest:
     url: https://github.com/Mbed-TLS/mbedtls
   - name: enet-tsn-stack
     path: mcu_plus_sdk/source/networking/tsn/tsn-stack
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.03
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
     url: https://github.com/TexasInstruments/enet-tsn-stack
   - name: dsplib
     path: mcu_plus_sdk/source/dsplib
     url: https://github.com/TexasInstruments/c7x_dsplib
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.03
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
   - name: audiolib
     path: mcu_plus_sdk/source/audiolib
     url: https://github.com/TexasInstruments/c7x_audiolib
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.03
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
   - name: fftlib
     path: mcu_plus_sdk/source/fftlib
     url: https://github.com/TexasInstruments/c7x_fftlib
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.03
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
   - name: mathlib
     path: mcu_plus_sdk/source/mathlib
     url: https://github.com/TexasInstruments/c7x_mathlib
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.03
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
   - name: vxlib
     path: mcu_plus_sdk/source/vxlib
     url: https://github.com/TexasInstruments/c7x_vxlib
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.03
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
   - name: tisp
     path: mcu_plus_sdk/source/tisp
     url: https://github.com/TexasInstruments/c7x_tisp
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.03
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
