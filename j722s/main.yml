@@ -3,47 +3,47 @@ manifest:
   projects:
     - name: processor-sdk-mcu/mcupsdk_setup
       path: mcupsdk_setup
-      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
+      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.05
       url: https://github.com/TexasInstruments/processor-sdk-mcu/mcupsdk_setup
     - name: processor-sdk-mcu/mcu_plus_sdk
       path: mcu_plus_sdk
-      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
+      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.05
       url: https://github.com/TexasInstruments/processor-sdk-mcu/mcu_plus_sdk
     - name: processor-sdk-mcu/freertos_fat
       path: mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT
-      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
+      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.05
       url: https://github.com/TexasInstruments/processor-sdk-mcu/freertos_fat
     - name: processor-sdk-mcu/freertos_kernel
       path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-Kernel
-      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
+      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.05
       url: https://github.com/TexasInstruments/processor-sdk-mcu/freertos_kernel
     - name: processor-sdk-mcu/freertos_posix
       path: mcu_plus_sdk/source/kernel/freertos/FreeRTOS-POSIX
-      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
+      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.05
       url: https://github.com/TexasInstruments/processor-sdk-mcu/freertos_posix
     - name: sysfw/rm_pm_hal
       path: mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src
-      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
+      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.05
       url: https://github.com/TexasInstruments/sysfw/rm_pm_hal
     - name: sitmpusw/dmautils
       path: mcu_plus_sdk/source/drivers/dmautils
-      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
+      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.05
       url: https://github.com/TexasInstruments/sitmpusw/dmautils
 \proc-ospi-tuningrefs/tags/MCUSDK_V1.0.0_MAIN
       url: https://github.com/TexasInstruments/proc-ospi-tuning
     - name: mcupsdk-enet-lld
       path: mcu_plus_sdk/source/networking/enet/core
-      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
+      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.05
       url: https://github.com/TexasInstruments/mcupsdk-enet-lld
 \ethernet-rtos-driversrefs/tags/v2025.03.5
       url: https://github.com/TexasInstruments/ethernet-rtos-drivers
     - name: PSDKLA/k3-resource-partitioning
       path: mcu_plus_sdk/tools/sysfw/k3-resource-partitioning
-      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
+      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.05
       url: https://github.com/TexasInstruments/PSDKLA/k3-resource-partitioning
     - name: processor-sdk/safety_checkers
       path: mcu_plus_sdk/source/safety_checkers
-      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
+      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.05
       url: https://github.com/TexasInstruments/processor-sdk/safety_checkers
 \mbedtlsrefs/tags/mbedtls-2.13.1
       url: https://github.com/Mbed-TLS/mbedtls
@@ -51,5 +51,5 @@ manifest:
       url: https://git.savannah.gnu.org/git/lwip
     - name: pdm_utils
       path: mcu_plus_sdk/source/pdm_utils
-      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.04
+      revision: refs/tags/DEV.MCUSDK.K3.12.01.00.05
       url: ssh://git@bitbucket.itg.ti.com/pdm/pdm_utils
