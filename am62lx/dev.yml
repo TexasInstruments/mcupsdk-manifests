@@ -19,7 +19,7 @@ manifest:
     url: https://github.com/TexasInstruments/arm-trusted-firmware
   - name: ethernet-rtos-drivers
     path: mcu_plus_sdk/source/board/ethphy/enet
-    revision: refs/tags/v2025.03.5
+    revision: refs/tags/v2026.03.9
     url: https://github.com/TexasInstruments/ethernet-rtos-drivers
   - name: mcupsdk-FreeRTOS-FAT
     path: mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT
