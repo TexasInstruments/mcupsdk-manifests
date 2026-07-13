@@ -59,7 +59,7 @@ manifest:
     url: https://github.com/TexasInstruments/enet-tsn-stack
   - name: multicore-elf
     path: mcu_plus_sdk/tools/boot/multicoreELFImageGen/
-    revision: refs/tags/MCUSDK_K3_V1.0.0
+    revision: refs/tags/MCUSDK_K3_V2.0.0
     url: https://github.com/TexasInstruments/multicore-elf
   - name: proc-ospi-tuning
     path: mcu_plus_sdk/source/drivers/ospi/v0/ospi_tuning

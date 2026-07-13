@@ -41,7 +41,7 @@ manifest:
     path: mcu_plus_sdk/source/networking/tsn/tsn-stack
     revision: refs/tags/DEV.MCUSDK.K3.12.01.00.06
     url: https://github.com/TexasInstruments/enet-tsn-stack
-\multicore-elfrefs/tags/MCUSDK_K3_V1.0.0
+\multicore-elfrefs/tags/MCUSDK_K3_V2.0.0
     url: https://github.com/TexasInstruments/multicore-elf
 \proc-ospi-tuningrefs/tags/MCUSDK_V1.0.0_MAIN
     url: https://github.com/TexasInstruments/proc-ospi-tuning
