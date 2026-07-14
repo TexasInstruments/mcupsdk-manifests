@@ -37,7 +37,7 @@ manifest:
     path: mcu_plus_sdk/source/networking/tsn/tsn-stack
     revision: refs/tags/DEV.MCUSDK.K3.12.01.00.06
     url: https://github.com/TexasInstruments/enet-tsn-stack
-\proc-safety-checkersrefs/tags/SITARA.12.00.00.02
+\proc-safety-checkersrefs/tags/SITARA.12.01.00.00
     url: https://github.com/TexasInstruments/proc-safety-checkers
 \proc-ospi-tuningrefs/tags/MCUSDK_V1.0.0_MAIN
     url: https://github.com/TexasInstruments/proc-ospi-tuning
