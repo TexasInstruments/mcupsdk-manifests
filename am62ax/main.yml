@@ -3,11 +3,11 @@ manifest:
   projects:
   - name: mcupsdk-setup
     path: mcupsdk_setup
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.06
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.07
     url: https://github.com/TexasInstruments/mcupsdk-setup
   - name: mcupsdk-core-k3
     path: mcu_plus_sdk
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.06
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.07
     url: https://github.com/TexasInstruments/mcupsdk-core-k3
 \ethernet-rtos-driversrefs/tags/v2026.03.9
     url: https://github.com/TexasInstruments/ethernet-rtos-drivers
@@ -15,11 +15,11 @@ manifest:
     url: https://github.com/TexasInstruments/mcupsdk-rm-pm-hal
   - name: mcupsdk-dmautils
     path: mcu_plus_sdk/source/drivers/dmautils
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.06
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.07
     url: https://github.com/TexasInstruments/mcupsdk-dmautils
   - name: filex
     path: mcu_plus_sdk/source/fs/filex/filex_src
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.06
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.07
     url: https://github.com/eclipse-threadx/filex
 \mcupsdk-FreeRTOS-FATrefs/tags/MCUSDK_V1.1.0_MAIN
     url: https://github.com/TexasInstruments/mcupsdk-FreeRTOS-FAT
@@ -29,11 +29,11 @@ manifest:
     url: https://github.com/TexasInstruments/mcupsdk-FreeRTOS-Posix
   - name: mcupsdk-enet-lld
     path: mcu_plus_sdk/source/networking/enet/core
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.06
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.07
     url: https://github.com/TexasInstruments/mcupsdk-enet-lld
   - name: enet-firmware
     path: mcu_plus_sdk/source/networking/ethfw
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.06
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.07
     url: https://github.com/TexasInstruments/enet-firmware    
 \lwiprefs/tags/STABLE-2_2_1_RELEASE
     url: https://github.com/lwip-tcpip/lwip
@@ -41,11 +41,11 @@ manifest:
     url: https://github.com/Mbed-TLS/mbedtls
   - name: enet-tsn-stack
     path: mcu_plus_sdk/source/networking/tsn/tsn-stack
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.06
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.07
     url: https://github.com/TexasInstruments/enet-tsn-stack
   - name: threadx
     path: mcu_plus_sdk/source/kernel/threadx/threadx_src
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.06
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.07
     url: https://github.com/eclipse-threadx/threadx
 \proc-safety-checkersrefs/tags/SITARA.12.01.00.00
     url: https://github.com/TexasInstruments/proc-safety-checkers
