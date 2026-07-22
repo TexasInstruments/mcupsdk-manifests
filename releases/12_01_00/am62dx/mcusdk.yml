@@ -67,7 +67,7 @@ manifest:
     url: https://github.com/TexasInstruments/c7x_dsplib
   - name: audiolib
     path: mcu_plus_sdk/source/audiolib
-    revision: refs/tags/REL.AUDIOLIB.12.01.00.02
+    revision: refs/tags/REL.AUDIOLIB.12.01.00.03
     url: https://github.com/TexasInstruments/c7x_audiolib
   - name: fftlib
     path: mcu_plus_sdk/source/fftlib
