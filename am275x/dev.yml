@@ -88,4 +88,4 @@ manifest:
   - name: tisp
     path: mcu_plus_sdk/source/tisp
     url: https://github.com/TexasInstruments/c7x_tisp
-    revision: refs/tags/DEV.TISP.12.01.00.03
+    revision: refs/tags/REL.TISP.12.01.00.02
