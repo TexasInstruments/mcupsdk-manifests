@@ -104,7 +104,7 @@ manifest:
   - name: audiolib
     path: mcu_plus_sdk/source/audiolib
     url: https://github.com/TexasInstruments/c7x_audiolib
-    revision: refs/tags/REL.AUDIOLIB.12.01.00.02
+    revision: refs/tags/REL.AUDIOLIB.12.01.00.03
   - name: fftlib
     path: mcu_plus_sdk/source/fftlib
     url: https://github.com/TexasInstruments/c7x_fftlib
@@ -120,4 +120,4 @@ manifest:
   - name: tisp
     path: mcu_plus_sdk/source/tisp
     url: https://github.com/TexasInstruments/c7x_tisp
-    revision: refs/tags/DEV.TISP.12.01.00.03
+    revision: refs/tags/REL.TISP.12.01.00.02
