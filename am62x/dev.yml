@@ -55,7 +55,7 @@ manifest:
     url: https://github.com/TexasInstruments/enet-tsn-stack
   - name: proc-safety-checkers
     path: mcu_plus_sdk/source/safety_checkers
-    revision: refs/tags/SITARA.12.01.00.00
+    revision: refs/tags/SITARA.12.01.00.01
     url: https://github.com/TexasInstruments/proc-safety-checkers
   - name: proc-ospi-tuning
     path: mcu_plus_sdk/source/drivers/ospi/v0/ospi_tuning
