@@ -13,7 +13,7 @@ manifest:
     url: https://github.com/TexasInstruments/mcupsdk-coremark-pro
 \trusted-firmware-a58b25570c9ef91753b14c2103f45f4be9dddb696
     url: https://github.com/TrustedFirmware-A/trusted-firmware-a
-\ethernet-rtos-driversrefs/tags/v2026.03.9
+\ethernet-rtos-driversrefs/tags/v2026.03.10
     url: https://github.com/TexasInstruments/ethernet-rtos-drivers
 \mcupsdk-rm-pm-halrefs/tags/v12.00.02
     url: https://github.com/TexasInstruments/mcupsdk-rm-pm-hal

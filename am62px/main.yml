@@ -9,7 +9,7 @@ manifest:
     path: mcu_plus_sdk
     revision: refs/tags/DEV.MCUSDK.K3.12.01.00.07
     url: https://github.com/TexasInstruments/mcupsdk-core-k3
-\ethernet-rtos-driversrefs/tags/v2026.03.9
+\ethernet-rtos-driversrefs/tags/v2026.03.10
     url: https://github.com/TexasInstruments/ethernet-rtos-drivers
 \ti-pmic-lldrefs/tags/REL.PMIC.TPS6522X.00.10.01
     url: https://github.com/TexasInstruments/ti-pmic-lld

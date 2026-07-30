@@ -11,7 +11,7 @@ manifest:
     url: https://github.com/TexasInstruments/mcupsdk-core-k3
   - name: ethernet-rtos-drivers
     path: mcu_plus_sdk/source/board/ethphy/enet
-    revision: refs/tags/v2026.03.9
+    revision: refs/tags/v2026.03.10
     url: https://github.com/TexasInstruments/ethernet-rtos-drivers
   - name: ti-pmic-lld
     path: mcu_plus_sdk/source/board/pmic/pmic_lld
