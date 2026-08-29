@@ -3,11 +3,11 @@ manifest:
   projects:
   - name: mcupsdk-setup
     path: mcupsdk_setup
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.10
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.11
     url: https://github.com/TexasInstruments/mcupsdk-setup
   - name: mcupsdk-core-k3
     path: mcu_plus_sdk
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.10
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.11
     url: https://github.com/TexasInstruments/mcupsdk-core-k3
 \ethernet-rtos-driversrefs/tags/v2026.03.10
     url: https://github.com/TexasInstruments/ethernet-rtos-drivers
@@ -23,11 +23,11 @@ manifest:
     url: https://github.com/TexasInstruments/mcupsdk-FreeRTOS-Posix
   - name: mcupsdk-enet-lld
     path: mcu_plus_sdk/source/networking/enet/core
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.10
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.11
     url: https://github.com/TexasInstruments/mcupsdk-enet-lld
   - name: enet-firmware
     path: mcu_plus_sdk/source/networking/ethfw
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.10
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.11
     url: https://github.com/TexasInstruments/enet-firmware
 \lwiprefs/tags/STABLE-2_2_1_RELEASE
     url: https://github.com/lwip-tcpip/lwip
@@ -35,7 +35,7 @@ manifest:
     url: https://github.com/Mbed-TLS/mbedtls
   - name: enet-tsn-stack
     path: mcu_plus_sdk/source/networking/tsn/tsn-stack
-    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.10
+    revision: refs/tags/DEV.MCUSDK.K3.12.01.00.11
     url: https://github.com/TexasInstruments/enet-tsn-stack
 \proc-safety-checkersrefs/tags/SITARA.12.01.00.00
     url: https://github.com/TexasInstruments/proc-safety-checkers
