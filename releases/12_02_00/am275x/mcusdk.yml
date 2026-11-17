@@ -71,7 +71,7 @@ manifest:
     url: https://github.com/TexasInstruments/c7x_dsplib
   - name: audiolib
     path: mcu_plus_sdk/source/audiolib
-    revision: refs/tags/REL.AUDIOLIB.12.02.00.05
+    revision: refs/tags/REL.AUDIOLIB.12.02.00.07
     url: https://github.com/TexasInstruments/c7x_audiolib
   - name: fftlib
     path: mcu_plus_sdk/source/fftlib
@@ -83,9 +83,9 @@ manifest:
     url: https://github.com/TexasInstruments/c7x_mathlib
   - name: vxlib
     path: mcu_plus_sdk/source/vxlib
-    revision: refs/tags/REL.VXLIB.12.02.00.05
+    revision: refs/tags/REL.VXLIB.12.02.00.07
     url: https://github.com/TexasInstruments/c7x_vxlib
   - name: tisp
     path: mcu_plus_sdk/source/tisp
-    revision: refs/tags/REL.TISP.12.02.00.05
+    revision: refs/tags/REL.TISP.12.02.00.08
     url: https://github.com/TexasInstruments/c7x_tisp  
