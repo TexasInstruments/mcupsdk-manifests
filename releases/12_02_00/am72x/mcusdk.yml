@@ -3,15 +3,15 @@ manifest:
   projects:
   - name: mcupsdk-setup
     path: mcupsdk_setup
-    revision: refs/tags/REL.FREERTOS.AM72.12.02.00.11
+    revision: refs/tags/REL.FREERTOS.AM72.12.02.00.12
     url: https://github.com/TexasInstruments/mcupsdk-setup
   - name: mcupsdk-core-k3
     path: mcu_plus_sdk
-    revision: refs/tags/REL.FREERTOS.AM72.12.02.00.11
+    revision: refs/tags/REL.FREERTOS.AM72.12.02.00.12
     url: https://github.com/TexasInstruments/mcupsdk-core-k3
   - name: mcupsdk-rm-pm-hal
     path: mcu_plus_sdk/source/drivers/device_manager/rm_pm_hal/rm_pm_hal_src
-    revision: refs/tags/REL.FREERTOS.AM72.12.02.00.11
+    revision: refs/tags/REL.FREERTOS.AM72.12.02.00.12
     url: https://github.com/TexasInstruments/mcupsdk-rm-pm-hal
   - name: mcupsdk-FreeRTOS-FAT
     path: mcu_plus_sdk/source/fs/freertos_fat/FreeRTOS-FAT
